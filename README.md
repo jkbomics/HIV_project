@@ -1,126 +1,117 @@
-# HIV_project# HIV drug repositioning: transcriptomic signature reversal (Steps 1–2a)
+# HIV drug repositioning: signature reversal and metabolic modelling (GSE199911)
 
-Dataset: **GSE199911** (acute HIV vs healthy control)
-Status: Steps 1 and 2a complete. Step 2b (Human1 metabolic modelling) and Step 3 (integration) pending.
+Dataset: **GSE199911**, acute HIV-1 infection vs healthy controls (PBMC RNA-seq)
+Status: Steps 1, 2a and 2b complete. Step 3 (integration) started: client-list integration done, wider drug-target search pending.
 
 ---
 
-## 1. Workflow overview
+## 1. Workflow
 
 ```
 GSE199911 (acute HIV vs healthy control)
         |
-Differential expression analysis                 [Step 1  - done]
+Differential expression analysis                        [Step 1  - done]
         |
-   +----+-----------------------------+
-   |                                  |
-Transcriptomic signature         Enzyme / gene-set mapping
-   |                                  |
-CMap / iLINCS / L1000            Human1 GEMs (GIMME / iMAT)
-(signature reversion)            (metabolic flux simulation)
-   |                                  |
-Reversing compounds              Target enzymes & pathways
-   [Step 2a - done]                   [Step 2b - pending]
-   |                                  |
-   +----------------+-----------------+
-                    |
-        Candidate repurposed drugs               [Step 3 - pending]
+   +----+------------------------------+
+   |                                   |
+Transcriptomic signature          Enzyme / gene-set mapping
+   |                                   |
+CMap / iLINCS / L1000             Human1 GEMs (GIMME / iMAT)
+(signature reversion)             (metabolic flux simulation)
+   |                                   |
+Reversing compounds               Target enzymes & pathways
+   [Step 2a - done]                    [Step 2b - done]
+   |                                   |
+   +-----------------+-----------------+
+                     |
+         Candidate repurposed drugs                     [Step 3 - in progress]
 ```
 
-This document covers the left branch (Steps 1 and 2a).
+---
+
+## 2. Data
+
+- **GSE199911**: PBMC RNA-seq (50 bp single-end, aligned to hg19). The GEO count file holds 75 samples: **29 untreated HIV-infected (about 1 month after screening) and 46 uninfected controls**.
+- **Differential expression** (Step 1) was provided by the client: `Supplementary_-_1.xlsx`, sheet "HIV DEGs". It lists 379 genes (|log2FC| ≥ 1.5, padj < 0.05): 344 up, 35 down in HIV.
+- **Group labels** were set from the `studygroup` column in the count file (1 = HIV, 2 = control). This matches the GEO sample annotation ("disease state: HIV infected" vs "HIV non-infected") for the 73 samples whose annotation could be read; the remaining 2 samples were labelled by `studygroup` alone.
+- **Client drug list**: `NO_CI_DRUGS.xlsx` (15 unique drugs, with targets, mechanism, network proximity and contraindications).
+- **Metabolic model**: Human-GEM (Human1) version 2.1.1, 12,748 reactions.
 
 ---
 
-## 2. What was done
+## 3. Step 2a: signature reversal (L1000 / SigCom LINCS)
 
-### Step 1: Differential expression
-- Differential expression results for GSE199911 (acute HIV vs healthy control) were taken from `Supplementary_-_1.xlsx`, sheet "HIV DEGs" (DESeq2-style output with Entrez gene IDs).
-- **379 differentially expressed genes**: 344 up-regulated and 35 down-regulated in acute HIV (all with |log2FC| ≥ 1.5 and padj < 0.05).
+**Method.** Genes were ranked by the DESeq2 Wald statistic and only genes present in the L1000 gene space were kept (this removes LOC/LINC/antisense transcripts). The final signature was **150 up and 19 down genes**. It was searched against the LINCS L1000 chemical perturbation library through the SigCom LINCS API. A signature counted as a *reverser* when z_up ≤ -5 and FDR < 0.05 (the up-regulated HIV genes sit at the bottom of the compound's expression profile). CMap/CLUE (clue.io) was retired on 31 January 2026, so SigCom LINCS, which searches the same LINCS data, was used.
 
-### Step 2a: Signature reversion against L1000
-The goal is to find compounds whose effect on gene expression is the *opposite* of the HIV signature.
-
-1. **Gene ID conversion.** Entrez IDs were converted to official gene symbols using the NCBI `Homo_sapiens.gene_info` file.
-2. **Signature construction.** Genes were ranked by the DESeq2 Wald statistic. Only genes present in the L1000 gene space (as resolved by the SigCom LINCS gene dictionary) were kept, so that the signature is not filled with genes that cannot be measured (LOC*, LINC*, antisense transcripts, pseudogenes). The final signature is:
-   - **150 up-regulated genes** (top 150 by Wald stat)
-   - **19 down-regulated genes** (all down genes that exist in the L1000 gene space; 16 of the 35 down-regulated DEGs were lost because they are non-coding or unmeasured)
-3. **Signature search.** The signature was submitted to the **SigCom LINCS** API (two-sided rank enrichment, `ranktwosided`) against the LINCS L1000 **chemical perturbation** library (`l1000_cp`). The API returns the 5,000 strongest reversing and 5,000 strongest mimicking signatures.
-4. **Classification of hits.** A signature was called a **reverser** when `z_up ≤ -5` and `FDR_up < 0.05` (the up-regulated HIV genes sit at the *bottom* of that compound's expression signature, meaning the compound pushes them down). A **mimicker** is the opposite (`z_up ≥ 5`).
-5. **Per-compound summary.** For each compound: number of reversing signatures, number of mimicking signatures, number of distinct cell lines in which it reverses, and median z_up of its reversing signatures. Compounds were ranked by the number of cell lines in which they reverse, then by median z_up.
-6. **Cross-check with the client drug list.** Results were matched to `NO_CI_DRUGS.xlsx` by compound ID/name.
-
-> CMap/CLUE (clue.io) was originally planned but the site and its query tools were retired on 31 January 2026. SigCom LINCS searches the same underlying LINCS L1000 data and was used instead.
-
----
-
-## 3. Results
+**Results.**
 
 | Item | Value |
 |---|---|
-| DEGs used | 379 (344 up, 35 down) |
-| Signature submitted | 150 up + 19 down genes (all found in L1000 space) |
 | Signature hits returned | 10,000 (5,000 reversing + 5,000 mimicking) |
-| Distinct compounds / cell lines in hits | 2,969 compounds / 191 cell lines |
+| Distinct compounds / cell lines | 2,969 / 191 |
 | Compounds with ≥1 reversing signature | 592 |
-| Compounds reversing in ≥3 cell lines | 309 |
-| Compounds reversing in ≥10 cell lines | 27 |
+| Reversing in ≥3 / ≥10 cell lines | 309 / 27 |
 
-**Top reversing compounds (by number of cell lines):**
+Top reversers (by number of cell lines): palbociclib (CDK4/6 inhibitor, 76 cell lines), PHA-793887 (CDK), R-547 (CDK), nutlin-3 and AMG-232 (MDM2), vorinostat (HDAC), osimertinib (EGFR), teniposide (topoisomerase II), JNJ-7706621 (CDK/Aurora), rucaparib (PARP).
 
-| Compound | Class | Reversing / mimicking signatures | Cell lines reversing | Median z_up (reversers) |
-|---|---|---|---|---|
-| palbociclib | CDK4/6 inhibitor | 262 / 0 | 76 | -11.7 |
-| PHA-793887 | CDK inhibitor | 64 / 0 | 39 | -10.6 |
-| R-547 | CDK inhibitor | 82 / 0 | 38 | -11.9 |
-| nutlin-3 | MDM2 inhibitor | 69 / 1 | 31 | -11.1 |
-| AMG-232 | MDM2 inhibitor | 51 / 3 | 20 | -11.6 |
-| vorinostat | HDAC inhibitor | 71 / 3 | 20 | -10.6 |
-| AZD-9291 (osimertinib) | EGFR inhibitor | 24 / 4 | 16 | -11.5 |
-| teniposide | Topoisomerase II inhibitor | 26 / 0 | 16 | -11.0 |
-| JNJ-7706621 | CDK/Aurora inhibitor | 16 / 2 | 16 | -10.4 |
-| rucaparib | PARP inhibitor | 16 / 1 | 16 | -9.6 |
-
-The top 50 are dominated by CDK inhibitors, MDM2/p53 activators, HDAC inhibitors, topoisomerase poisons, PARP inhibitors, PI3K/AKT/mTOR inhibitors, MEK/RAF inhibitors, HSP90 and proteasome inhibitors. The full table is in `results_v2/sigcom_compound_summary.csv`.
-
-**Overlap with the client drug list (`NO_CI_DRUGS.xlsx`):**
-
-| Drug | Result in this analysis | Existing values in client table |
-|---|---|---|
-| **Fedratinib (TG-101348)**, JAK2/FLT3 inhibitor | **Reverses**: 23 reversing vs 2 mimicking signatures, 12 cell lines, median z_up -11.4 | `hiv_mean_nes_up` -1.55, FDR 0.027 |
-| Dexamethasone | Mostly **mimics** (13 mimicking vs 1 reversing) | `hiv_mean_nes_up` -1.70, FDR 0.010 |
-| Lenalidomide | **Mimics** only (12 of 12 signatures) | `hiv_mean_nes_up` -1.34, FDR 0.013 |
-| Ruxolitinib, anastrozole | Mimic only (3 of 3, 2 of 2) | n/a |
-
-Only two compounds from the client list appear among the reversers in the cleaned results, and only fedratinib is a consistent reverser.
+**Why these results.** The up-regulated genes are dominated by cell-cycle and DNA-replication genes (CDC45, MCM2/4/10, CCNA2, TOP2A, PLK1, CDK1, FOXM1, E2F2/7/8) plus interferon-stimulated genes (IFI27, ISG15, USP18), CD38, CD8A/B and immunoglobulin variable segments. Compounds that stop cells dividing push the cell-cycle genes down, so anti-proliferative drugs rank at the top whatever the disease. The 19 down genes were not enriched in any L1000 signature (FDR ≥ 0.92), so the ranking rests on the up genes.
 
 ---
 
-## 4. Why we got these results
+## 4. Step 2b: enzyme mapping and Human1 metabolic modelling
 
-- **The signature is dominated by proliferation genes.** The most up-regulated genes include CDC45, CDCA7, NUSAP1, CCNA2, ASPM, NCAPG, MCM2/4/10, TOP2A, PLK1, AURKB, CDK1, CCNB1/2, FOXM1, MYBL2 and E2F2/7/8. These are DNA replication, mitosis and E2F-target genes.
-- **Compounds that stop the cell cycle reverse such a signature, whatever the disease.** CDK inhibitors, topoisomerase poisons, MDM2/p53 activators, HDAC inhibitors and PARP inhibitors all switch these genes off, so they rank at the top. This explains why the leading hits are anti-proliferative agents.
-- **The signature also carries immune biology.** CD38, CD8A/CD8B, LAG3, CCL5 and several interferon-stimulated genes (IFI27, ISG15, USP18, RTP4) are up, consistent with an activated, proliferating lymphocyte response and an interferon response in acute HIV infection. The many immunoglobulin variable-region genes (IGHV/IGKV/IGLV, 30 of the 150 up genes) are consistent with expansion of antibody-producing B cells.
-- **The down-regulated side adds almost nothing.** Only 19 down genes could be used, and none of the L1000 signatures were enriched for them (FDR_down ≥ 0.92 throughout). The ranking therefore rests on the up-regulated genes. This is why scoring is based on the up set.
+**Methods.**
+1. **DEG mapping.** The 379 DEGs were mapped to Human1 genes, reactions and subsystems.
+2. **Reaction activity.** Counts were normalised (median-of-ratios, log2), genes with fewer than 10 counts in 3 samples were removed (2,271 Human1 genes retained). For every Human1 reaction, an activity score was computed per sample from its gene rule (AND = lowest gene, OR = highest gene) and compared between HIV and control with a Welch t-test and Benjamini-Hochberg correction. Pathway enrichment counted reactions sharing the same gene rule once.
+3. **Flux models.** Context-specific models for HIV and control were built with GIMME (group-median expression, 25th-percentile threshold, 10% of maximum growth required) in a defined medium, and the two flux solutions were compared.
+4. **Candidate enzymes.** Each enzyme was scored by how many evidence sources agree on direction (DEG, reaction activity, GIMME flux).
+
+**Results.**
+
+| Item | Value |
+|---|---|
+| DEGs present in Human1 reactions | 17 of 379 (all up-regulated, none of the 35 down genes) |
+| Reactions tested for activity | 6,752: 566 more active, 470 less active in HIV (FDR < 0.05, \|log2 diff\| ≥ 0.5) |
+| GIMME flux changes | 106 of 12,748 reactions (46 higher, 60 lower in HIV) |
+| Candidate enzymes with any evidence | 231 (103 up, 116 down, 12 conflicting) |
+
+**Pathways more active in HIV** (FDR < 0.05): **pyrimidine metabolism** (FDR 0.0001), **nucleotide metabolism** (0.004) and the **mitochondrial carnitine shuttle** (0.004). No pathway was significantly less active (closest: starch and sucrose metabolism, FDR 0.079; xenobiotics metabolism, 0.097). The strongest single reaction is ribonucleotide reduction (RRM1/RRM2/RRM2B with thioredoxin), about 3.7-fold higher in HIV (log2 difference +1.89, FDR ~10⁻¹¹).
+
+**Best-supported enzymes:** TK1 (thymidine kinase; DEG + reaction activity + flux, all up) and, with two agreeing sources, TYMS (thymidylate synthase), CD38, AICDA, SLC27A2, SCD, CMPK2 (all up) and AK5, SLC4A8, SLC4A10 (down). The DEG-mapped enzymes also include RRM2 and FABP5. Note that Human1 contains some DNA and protein-modification reactions, so a few of the 17 mapped DEGs (for example POLQ, UBE2C, USP18) are not classic metabolic enzymes.
+
+**Interpretation.**
+- The metabolic signal is **nucleotide synthesis** (RRM2, TYMS, TK1, plus DNA replication genes). This matches Step 2a: expanding, proliferating immune cells need more nucleotides. The raised carnitine shuttle and fatty-acid oxidation reactions point to a change in lipid handling in activated cells. CD38 is a regulator of NAD+ metabolism, and CMPK2 is an interferon-stimulated gene, in line with the interferon response in acute HIV.
+- **The GIMME flux comparison is not reliable evidence and was not used as such.** Only 9 of the 106 flux changes agree in direction with the expression data and 2 oppose it. The largest changes are transport and adenylate kinase / pyruvate kinase isoenzyme swaps, and total nucleotide-metabolism flux comes out *lower* in HIV, the opposite of the expression evidence. This is typical of picking one of many equivalent optimal flux solutions. The reaction-activity analysis is the statistically sound part of Step 2b.
+- Bulk PBMC data mix cell types. Part of the signal may reflect a shift in cell composition (for example expansion of proliferating plasmablasts and T cells) rather than metabolic reprogramming inside each cell.
 
 ---
 
-## 5. Interpretation
+## 5. Step 3 (in progress): integrating reversal and metabolic evidence for the client drug list
 
-1. **The top reversers mainly show that the signature is a proliferation signature.** They are strong, reproducible reversers across many cell lines, but this pattern would be seen for almost any disease with a strong cell-cycle signal. They are not evidence of HIV-specific activity and are not recommended as repurposing candidates on this basis alone (many are cytotoxic oncology agents).
-2. **Fedratinib is the most interesting hit for the client list.** It reverses consistently across 12 cell lines, it comes from a drug list already filtered for contraindications, and it agrees with the independent reversal value already in the client table. It also acts on JAK/STAT signalling, which is plausible in the context of interferon and cytokine signalling in acute infection. This is a hypothesis for follow-up, not a conclusion.
-3. **Dexamethasone and lenalidomide do not reverse this signature here.** Their values in the client table were negative (suggesting reversal), but in this run they behave as mimickers. The difference may come from using a different signature, different gene-set size, or a different scoring method. It should be resolved before these two drugs are carried forward.
-4. **Step 2a alone cannot nominate final drug candidates.** The metabolic branch (Step 2b) is needed to separate generic anti-proliferative effects from compounds acting on HIV-relevant metabolic enzymes and pathways.
+For the 15 drugs in `NO_CI_DRUGS.xlsx`, `results_3/5_drug_integration_client_list.csv` combines the client's signature score and network proximity, contraindications, SigCom reversal (Step 2a) and metabolic evidence for their targets (Step 2b). Five yes/no flags are used: SigCom reversal, client signature score, network proximity, no contraindications, and metabolic-target support.
+
+| Drug | Main finding |
+|---|---|
+| **Fedratinib** (JAK2/FLT3 inhibitor) | Best supported: **4 of 5 flags**. Reverses the signature in 23 of 25 SigCom signatures across 12 cell lines, client NES -1.55 (FDR 0.027), proximity z -3.63, no contraindications. No Human1 metabolic target support. |
+| Dexamethasone | Mimics rather than reverses (13 mimicking vs 1 reversing signature), which conflicts with its negative score in the client table. |
+| Lenalidomide | Mimics (12 of 12 signatures) and has 10 contraindications. |
+| Benzbromarone | Targets ABCG2 and AKR1C1, but their reaction activity is mixed or weak (one supporting source), so no metabolic support. |
+| Others (oxybenzone, nicergoline, ciprofibrate, bromhexine, anastrozole) | 1–2 SigCom signatures, all mimicking. |
+| Six drugs (naftidrofuryl, mephentermine, flupirtine, colforsin, zoxazolamine, ciclacillin) | Not among the top 10,000 SigCom hits, so not assessed in Step 2a. |
+
+**Key finding:** none of the 15 drugs has metabolic-target support from Step 2b. Their targets are mostly kinases, receptors and transporters, while the HIV metabolic signal sits in nucleotide synthesis, and only 6 of their 324 targets fall in significantly changed reactions. Linking the metabolic findings to drugs needs a drug-target database that covers enzymes such as TYMS, RRM1/RRM2, TK1, CD38, CMPK2 and SCD (for example DrugCentral or DGIdb). This is the next sub-step.
 
 ---
 
 ## 6. Limitations
 
-- **Cell-line data, not primary immune cells.** The L1000 signatures come mostly from cancer and other cell lines (the largest groups are MCF7, VCAP, A549, A375, MCF10A), not from PBMCs or T/B cells infected with HIV.
-- **Truncated results.** The API returns only the top 5,000 hits in each direction, so per-compound signature counts are lower bounds. Use "reversing vs mimicking" as a consistency check rather than exact percentages.
-- **Immunoglobulin genes.** 30 of the 150 up genes are IG variable segments. They resolved in the SigCom gene dictionary, but their measurement in L1000 is unreliable, and they may add noise. A sensitivity run without them is recommended.
-- **Short down-regulated set** (19 genes), so the search is effectively one-sided.
-- **Thresholds are set by the analyst** (z_up ≤ -5, FDR < 0.05, top 150 up genes). Results should be checked for stability to these choices.
-- **Computational prediction only.** Reversal of a transcriptomic signature in vitro does not demonstrate clinical efficacy or safety in HIV.
+- **Cell-line data** (L1000) and **bulk PBMC** expression: results may not transfer to specific immune cell types or to infected cells.
+- **Proliferation signal dominates.** Top reversers are generic anti-proliferative agents, not HIV-specific, and many are cytotoxic oncology drugs.
+- **SigCom returns only the top 5,000 hits per direction**, so per-compound counts are lower bounds.
+- **Immunoglobulin genes** (30 of the 150 up genes) are poorly measured in L1000; a sensitivity run without them is recommended.
+- **Medium and growth requirement are modelling assumptions** (defined medium; 10% of maximum growth). The flux comparison is one optimal solution per condition.
+- **Expression is not length-normalised** and the reaction-activity test is not adjusted for age or sex (both are available in the count file).
+- **Computational predictions only**; they do not show efficacy or safety in HIV.
 
 ---
 
@@ -128,27 +119,31 @@ Only two compounds from the client list appear among the reversers in the cleane
 
 | File | Description |
 |---|---|
-| `step2a_signature_reversal.py` | Script for Step 2a (v2) |
-| `results_v2/signature_up_symbols.txt` | 150 up genes used |
-| `results_v2/signature_down_symbols.txt` | 19 down genes used |
-| `results_v2/sigcom_raw_signature_hits.csv` | All 10,000 signature hits with z-scores, FDR, cell line, dose, time |
-| `results_v2/sigcom_compound_summary.csv` | Per-compound summary (592 compounds), ranked |
-| `Supplementary_-_1.xlsx` | Input DEG table (GSE199911) |
-| `NO_CI_DRUGS.xlsx` | Client drug list used for the cross-check |
+| `step2a_signature_reversal.py` | Step 2a: signature search in SigCom LINCS |
+| `step2b_pipeline.py` | Step 2b: GEO download, Human1 mapping, reaction activity, GIMME/iMAT, candidate enzymes |
+| `step3_integration.py` | Step 3 (part 1): integrates client drug list with Steps 2a and 2b |
+| `results_v2/` | Step 2a results (`sigcom_compound_summary.csv`, `sigcom_raw_signature_hits.csv`, signature gene lists) |
+| `results_2b/1_metabolic_DEGs.csv`, `1_subsystem_enrichment_DEGs.csv` | DEGs found in Human1 and their pathway enrichment |
+| `results_2b/2_reaction_activity_HIV_vs_control.csv`, `2_subsystem_activity_enrichment.csv` | Reaction-level and pathway-level activity |
+| `results_2b/3_flux_comparison_gimme.csv`, `3_subsystem_flux_gimme.csv` | GIMME flux comparison (exploratory) |
+| `results_2b/4_candidate_target_enzymes.csv` | Candidate enzymes with evidence sources |
+| `results_2b/groups_used.csv`, `sample_annotation_from_GEO.csv` | Sample labels used |
+| `results_3/5_drug_integration_client_list.csv` | Per-drug evidence table for the client list |
 
 ## 8. How to reproduce
 
 ```bash
-pip install pandas openpyxl requests
+pip install numpy pandas scipy pyyaml requests openpyxl
 python step2a_signature_reversal.py --degs Supplementary_-_1.xlsx --outdir results_v2
+python step2b_pipeline.py --degs Supplementary_-_1.xlsx --hiv-code 1
+python step3_integration.py
 ```
 
-Optional arguments: `--zcut` (default 5), `--fdr` (default 0.05), `--n-up` (default 150), `--n-down`, `--database` (default `l1000_cp`), `--require-down`, `--list-databases`. The SigCom LINCS API is queried live, so results may change slightly if the database is updated.
+Options: `--method both` adds iMAT in Step 2b (slower); `--growth-frac 0.05` or `0.5` tests how sensitive the flux model is to the growth requirement.
 
 ## 9. Next steps
 
-1. Sensitivity run excluding immunoglobulin genes; check that the top reversers and fedratinib stay stable.
-2. Cross-check with an independent tool (L2S2 and/or iLINCS) using the same signature, and keep compounds supported by more than one tool.
-3. Resolve the discordance for dexamethasone and lenalidomide by confirming which signature produced the existing values in `NO_CI_DRUGS.xlsx`.
-4. Step 2b: map DEGs to Human1 enzymes and run GIMME/iMAT flux modelling (needs the full expression matrix, not only the 379 DEGs).
-5. Step 3: integrate reversing compounds with target enzymes/pathways, network proximity and contraindication data to rank final candidates.
+1. Add a drug-target database (DrugCentral or DGIdb) and link the 592 SigCom reversers and the candidate enzymes (TYMS, RRM1/RRM2, TK1, CD38, CMPK2, SCD) to drugs.
+2. Sensitivity checks: exclude immunoglobulin genes from the signature, adjust reaction activity for age and sex, vary the growth fraction.
+3. Cross-check reversers with a second tool (L2S2 or iLINCS) and resolve the dexamethasone and lenalidomide discrepancy with the client's original signature.
+4. Rank final candidates, with cytotoxic or contraindicated drugs flagged separately.
