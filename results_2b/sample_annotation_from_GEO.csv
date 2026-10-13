@@ -1,0 +1,75 @@
+gsm,title,text,group
+GSM5993486,A0201, | A0201 | Peripheral blood mononuclear cell | subject gender: F | subject age: 35 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993487,A0301, | A0301 | Peripheral blood mononuclear cell | subject gender: F | subject age: 18 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993488,A0401, | A0401 | Peripheral blood mononuclear cell | subject gender: M | subject age: 33 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993489,A0501, | A0501 | Peripheral blood mononuclear cell | subject gender: F | subject age: 37 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993490,A0601, | A0601 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993491,A0701, | A0701 | Peripheral blood mononuclear cell | subject gender: M | subject age: 27 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993492,A0801, | A0801 | Peripheral blood mononuclear cell | subject gender: F | subject age: 18 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993493,A0901, | A0901 | Peripheral blood mononuclear cell | subject gender: M | subject age: 27 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993494,A1101, | A1101 | Peripheral blood mononuclear cell | subject gender: M | subject age: 30 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993495,A1301, | A1301 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993496,A1401, | A1401 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993497,A1501, | A1501 | Peripheral blood mononuclear cell | subject gender: M | subject age: 41 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993498,A1801, | A1801 | Peripheral blood mononuclear cell | subject gender: M | subject age: 27 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993499,A1901, | A1901 | Peripheral blood mononuclear cell | subject gender: M | subject age: 22 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993500,A2001, | A2001 | Peripheral blood mononuclear cell | subject gender: F | subject age: 20 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993501,A2501, | A2501 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993502,A3101, | A3101 | Peripheral blood mononuclear cell | subject gender: M | subject age: 30 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993503,A3201, | A3201 | Peripheral blood mononuclear cell | subject gender: F | subject age: 21 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993504,A3301, | A3301 | Peripheral blood mononuclear cell | subject gender: F | subject age: 18 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993505,A3701, | A3701 | Peripheral blood mononuclear cell | subject gender: F | subject age: 49 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993506,A3801, | A3801 | Peripheral blood mononuclear cell | subject gender: F | subject age: 60 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993507,A4101, | A4101 | Peripheral blood mononuclear cell | subject gender: F | subject age: 35 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993508,A4201, | A4201 | Peripheral blood mononuclear cell | subject gender: F | subject age: 24 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993509,A4301, | A4301 | Peripheral blood mononuclear cell | subject gender: F | subject age: 45 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993510,A4401, | A4401 | Peripheral blood mononuclear cell | subject gender: M | subject age: 29 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993511,A4501, | A4501 | Peripheral blood mononuclear cell | subject gender: M | subject age: 21 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993512,A4901, | A4901 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993513,A5001, | A5001 | Peripheral blood mononuclear cell | subject gender: F | subject age: 20 | disease state: HIV infected | month since screening: 1 | hiv treatment: untreated,HIV
+GSM5993514,N0101, | N0101 | Peripheral blood mononuclear cell | subject gender: F | subject age: 25 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993515,N0201, | N0201 | Peripheral blood mononuclear cell | subject gender: F | subject age: 30 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993516,N0301, | N0301 | Peripheral blood mononuclear cell | subject gender: M | subject age: 25 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993517,N0401, | N0401 | Peripheral blood mononuclear cell | subject gender: M | subject age: 32 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993518,N0501, | N0501 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993519,N0601, | N0601 | Peripheral blood mononuclear cell | subject gender: F | subject age: 20 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993520,N0701, | N0701 | Peripheral blood mononuclear cell | subject gender: F | subject age: 37 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993521,N0801, | N0801 | Peripheral blood mononuclear cell | subject gender: M | subject age: 39 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993522,N0901, | N0901 | Peripheral blood mononuclear cell | subject gender: M | subject age: 23 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993523,N1001, | N1001 | Peripheral blood mononuclear cell | subject gender: F | subject age: 43 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993524,N1101, | N1101 | Peripheral blood mononuclear cell | subject gender: M | subject age: 22 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993525,N1201, | N1201 | Peripheral blood mononuclear cell | subject gender: F | subject age: 20 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993526,N1301, | N1301 | Peripheral blood mononuclear cell | subject gender: F | subject age: 32 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993527,N1401, | N1401 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993528,N1501, | N1501 | Peripheral blood mononuclear cell | subject gender: F | subject age: 33 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993529,N1601, | N1601 | Peripheral blood mononuclear cell | subject gender: F | subject age: 41 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993530,N1701, | N1701 | Peripheral blood mononuclear cell | subject gender: F | subject age: 18 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993531,N1801, | N1801 | Peripheral blood mononuclear cell | subject gender: F | subject age: 23 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993532,N1901, | N1901 | Peripheral blood mononuclear cell | subject gender: F | subject age: 28 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993533,N2001, | N2001 | Peripheral blood mononuclear cell | subject gender: F | subject age: 40 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993534,N2101, | N2101 | Peripheral blood mononuclear cell | subject gender: M | subject age: 53 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993535,N2201, | N2201 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993536,N2301, | N2301 | Peripheral blood mononuclear cell | subject gender: F | subject age: 32 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993537,N2401, | N2401 | Peripheral blood mononuclear cell | subject gender: F | subject age: 35 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993538,N2501, | N2501 | Peripheral blood mononuclear cell | subject gender: F | subject age: 23 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993539,N2601, | N2601 | Peripheral blood mononuclear cell | subject gender: M | subject age: 22 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993540,N2701, | N2701 | Peripheral blood mononuclear cell | subject gender: F | subject age: 24 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993541,N2801, | N2801 | Peripheral blood mononuclear cell | subject gender: F | subject age: 25 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993542,N2901, | N2901 | Peripheral blood mononuclear cell | subject gender: F | subject age: 19 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993543,N3001., | N3001. | Peripheral blood mononuclear cell | subject gender: F | subject age: 28 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993544,N3101, | N3101 | Peripheral blood mononuclear cell | subject gender: F | subject age: 30 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993545,N3201, | N3201 | Peripheral blood mononuclear cell | subject gender: F | subject age: 37 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993546,N3301, | N3301 | Peripheral blood mononuclear cell | subject gender: M | subject age: 32 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993547,N3401, | N3401 | Peripheral blood mononuclear cell | subject gender: M | subject age: 18 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993548,N3501, | N3501 | Peripheral blood mononuclear cell | subject gender: F | subject age: 26 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993549,N3601, | N3601 | Peripheral blood mononuclear cell | subject gender: F | subject age: 46 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993550,N3701, | N3701 | Peripheral blood mononuclear cell | subject gender: F | subject age: 50 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993551,N3801, | N3801 | Peripheral blood mononuclear cell | subject gender: M | subject age: 37 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993552,N3901, | N3901 | Peripheral blood mononuclear cell | subject gender: F | subject age: 17 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993553,N4001, | N4001 | Peripheral blood mononuclear cell | subject gender: F | subject age: 17 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993554,N4101, | N4101 | Peripheral blood mononuclear cell | subject gender: F | subject age: 21 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993555,N4301, | N4301 | Peripheral blood mononuclear cell | subject gender: F | subject age: 22 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993556,N4401, | N4401 | Peripheral blood mononuclear cell | subject gender: F | subject age: 53 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993557,N4501, | N4501 | Peripheral blood mononuclear cell | subject gender: F | subject age: 18 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993558,N4601, | N4601 | Peripheral blood mononuclear cell | subject gender: F | subject age: 21 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
+GSM5993559,N4701, | N4701 | Peripheral blood mononuclear cell | subject gender: M | subject age: 21 | disease state: HIV non-infected | month since screening: 1 | hiv treatment: not applicable,HIV
