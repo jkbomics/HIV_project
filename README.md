@@ -129,7 +129,7 @@ Other direct nucleotide-synthesis inhibitors did **not** reverse the signature c
 | 2 | Strong reversal only (≥10 cell lines) | 23 (palbociclib, PHA-793887, R-547, nutlin-3, vorinostat, AMG-232, JNJ-7706621, rucaparib and others) |
 | 2b | Reversal in fewer cell lines | 243 |
 | 3 | Acts on a Step 2b enzyme, reversal not shown | 55 |
-| 4 | Client list, no reversal | 14 |
+| 4 | Given list, no reversal | 14 |
 
 **Drug classes among the 268 signature reversers:** 62 anti-cancer drugs, 20 approved non-oncology drugs, 57 investigational or unannotated, and 129 not found in DGIdb (mostly research compounds or lab codes).
 
