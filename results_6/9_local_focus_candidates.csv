@@ -1,0 +1,338 @@
+name,groups,cell_line_used,call,up_in_drugDN,up_in_drugUP,fold_reversal,fold_mimic,fdr_reversal,fdr_mimic,call_in_HEPG2,call_in_HA1E,sigcom_n_reversing,sigcom_n_mimicking,sigcom_cell_lines_reversing,agreement
+etoposide,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,63.0,1.0,16.013690721649485,0.2541855670103093,7.932624746145122e-61,1.0,,reverser,20.0,4.0,8.0,both reverse
+CD-437,ranking: 2: strong reversal only,HEPG2,reverser,56.0,0.0,14.23439175257732,0.0,5.389732606037337e-50,1.0,reverser,,13.0,0.0,11.0,both reverse
+amsacrine,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,50.0,4.0,12.709278350515465,1.0167422680412372,9.770160333040218e-41,1.0,,reverser,27.0,1.0,6.0,both reverse
+BRD-K78385490,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,47.0,3.0,11.946721649484537,0.7625567010309279,3.250589340192026e-37,1.0,reverser,reverser,4.0,0.0,4.0,both reverse
+VU-0418946-1,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,47.0,0.0,11.946721649484537,0.0,3.250589340192026e-37,1.0,reverser,reverser,4.0,0.0,3.0,both reverse
+WZ-4-145,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,46.0,1.0,11.692536082474227,0.2541855670103093,5.839337613062879e-36,1.0,reverser,reverser,6.0,0.0,5.0,both reverse
+NNC-55-0396,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,42.0,0.0,10.675793814432991,0.0,6.803463375275554e-31,1.0,reverser,reverser,3.0,1.0,2.0,both reverse
+rhodomyrtoxin-b,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,42.0,0.0,10.675793814432991,0.0,8.89322745712412e-31,1.0,,reverser,5.0,0.0,5.0,both reverse
+FCCP,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,40.0,0.0,10.167422680412372,0.0,1.9020182676047394e-28,1.0,reverser,reverser,10.0,0.0,8.0,both reverse
+malonoben,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,39.0,0.0,9.913237113402062,0.0,2.9382811068138155e-27,1.0,reverser,reverser,8.0,0.0,7.0,both reverse
+teniposide,ranking: 2: strong reversal only,HEPG2,reverser,38.0,2.0,9.659051546391753,0.5083711340206186,4.1782608799337305e-26,1.0,reverser,reverser,26.0,0.0,16.0,both reverse
+amonafide,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,37.0,1.0,9.404865979381444,0.2541855670103093,5.826045698388794e-25,1.0,reverser,reverser,8.0,2.0,6.0,both reverse
+cyclosporin-a,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,37.0,2.0,9.404865979381444,0.5083711340206186,5.826045698388794e-25,1.0,reverser,reverser,13.0,4.0,6.0,both reverse
+MG-132,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,37.0,0.0,9.404865979381444,0.0,5.826045698388794e-25,1.0,reverser,reverser,21.0,5.0,9.0,both reverse
+BRD-K32581454,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,36.0,2.0,9.150680412371134,0.5083711340206186,8.240848015148922e-24,1.0,reverser,,3.0,0.0,3.0,both reverse
+niguldipine,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,35.0,1.0,8.896494845360825,0.2541855670103093,1.143343002852847e-22,1.0,reverser,reverser,5.0,0.0,5.0,both reverse
+canertinib,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,34.0,1.0,8.642309278350515,0.2541855670103093,1.439923431723978e-21,1.0,reverser,neutral,10.0,0.0,4.0,both reverse
+ENMD-2076,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,34.0,2.0,8.642309278350515,0.5083711340206186,1.439923431723978e-21,1.0,reverser,reverser,14.0,2.0,6.0,both reverse
+menadione,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,33.0,2.0,8.388123711340207,0.5083711340206186,1.7500081553359893e-20,1.0,reverser,reverser,3.0,1.0,3.0,both reverse
+clofarabine,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,reverser,31.0,1.0,7.879752577319588,0.2541855670103093,2.156055378855846e-18,1.0,reverser,neutral,2.0,3.0,1.0,"local reverses, SigCom not flagged"
+diphenyleneiodonium,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,31.0,1.0,7.879752577319588,0.2541855670103093,2.156055378855846e-18,1.0,reverser,neutral,3.0,0.0,3.0,both reverse
+obatoclax,ranking: 2: strong reversal only,HEPG2,reverser,30.0,1.0,7.625567010309279,0.2541855670103093,2.229028004643346e-17,1.0,reverser,neutral,16.0,1.0,14.0,both reverse
+PHA-793887,ranking: 2: strong reversal only,HEPG2,reverser,29.0,0.0,7.3713814432989695,0.0,2.2206058832402546e-16,1.0,reverser,reverser,64.0,0.0,39.0,both reverse
+amiodarone,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,reverser,28.0,2.0,7.11719587628866,0.5083711340206186,2.0324544467823954e-15,1.0,reverser,neutral,3.0,0.0,3.0,both reverse
+palbociclib,ranking: 2: strong reversal only,HEPG2,reverser,28.0,0.0,7.11719587628866,0.0,2.0324544467823954e-15,1.0,reverser,reverser,262.0,0.0,76.0,both reverse
+serdemetan,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,28.0,0.0,7.11719587628866,0.0,2.0324544467823954e-15,1.0,reverser,,6.0,0.0,4.0,both reverse
+topotecan,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,28.0,1.0,7.11719587628866,0.2541855670103093,2.954795786958322e-15,1.0,,reverser,20.0,6.0,4.0,both reverse
+NSC-95397,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,27.0,3.0,6.8630103092783505,0.7625567010309279,1.869750538580117e-14,1.0,reverser,reverser,9.0,1.0,9.0,both reverse
+alvespimycin,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,26.0,1.0,6.608824742268041,0.2541855670103093,1.5510193310109707e-13,1.0,reverser,,5.0,2.0,2.0,both reverse
+BRD-K31706415,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,26.0,2.0,6.608824742268041,0.5083711340206186,1.5510193310109707e-13,1.0,reverser,,4.0,0.0,4.0,both reverse
+CHEMBL-374350,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,26.0,2.0,6.608824742268041,0.5083711340206186,1.5510193310109707e-13,1.0,reverser,neutral,3.0,0.0,3.0,both reverse
+clomifene,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,26.0,5.0,6.608824742268041,1.2709278350515465,1.5510193310109707e-13,0.83636754056501,reverser,neutral,5.0,0.0,1.0,both reverse
+entinostat,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,26.0,5.0,6.608824742268041,1.2709278350515465,1.5510193310109707e-13,0.83636754056501,reverser,reverser,12.0,4.0,9.0,both reverse
+rucaparib,ranking: 2: strong reversal only,HEPG2,reverser,26.0,2.0,6.608824742268041,0.5083711340206186,1.5510193310109707e-13,1.0,reverser,,16.0,1.0,16.0,both reverse
+AZD-7545,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,25.0,0.0,6.3546391752577325,0.0,1.2790527894340188e-12,1.0,reverser,,4.0,0.0,4.0,both reverse
+SCH-79797,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,25.0,0.0,6.3546391752577325,0.0,1.2790527894340188e-12,1.0,reverser,,3.0,0.0,3.0,both reverse
+JNJ-7706621,ranking: 2: strong reversal only,HEPG2,reverser,24.0,0.0,6.100453608247423,0.0,1.0116596725050497e-11,1.0,reverser,reverser,16.0,2.0,16.0,both reverse
+vorinostat,ranking: 2: strong reversal only,HEPG2,reverser,24.0,2.0,6.100453608247423,0.5083711340206186,1.0116596725050497e-11,1.0,reverser,reverser,71.0,3.0,20.0,both reverse
+pyrvinium-pamoate,ranking: 2: strong reversal only; repurposing shortlist,HEPG2,reverser,23.0,0.0,5.8462680412371135,0.0,7.733795018182719e-11,1.0,reverser,,20.0,0.0,12.0,both reverse
+lestaurtinib,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,22.0,0.0,5.592082474226804,0.0,5.284194895563692e-10,1.0,reverser,reverser,5.0,0.0,4.0,both reverse
+selamectin,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,22.0,0.0,5.592082474226804,0.0,5.284194895563692e-10,1.0,reverser,,3.0,0.0,3.0,both reverse
+alvocidib,ranking: 2: strong reversal only,HEPG2,reverser,20.0,2.0,5.083711340206186,0.5083711340206186,2.1151578427950394e-08,1.0,reverser,reverser,18.0,1.0,15.0,both reverse
+rottlerin,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,20.0,0.0,5.083711340206186,0.0,2.1151578427950394e-08,1.0,reverser,reverser,4.0,1.0,3.0,both reverse
+AG-14361,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,19.0,2.0,4.8295257731958765,0.5083711340206186,1.2656285387569621e-07,1.0,reverser,reverser,7.0,0.0,7.0,both reverse
+SN-38,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,19.0,0.0,4.8295257731958765,0.0,1.2656285387569621e-07,1.0,reverser,,16.0,7.0,7.0,both reverse
+alisertib,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,18.0,2.0,4.575340206185567,0.5083711340206186,6.886243845848224e-07,1.0,reverser,neutral,32.0,3.0,5.0,both reverse
+gemcitabine,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,reverser,18.0,2.0,4.575340206185567,0.5083711340206186,6.886243845848224e-07,1.0,reverser,neutral,3.0,4.0,3.0,"local reverses, SigCom not flagged"
+NVP-TAE684,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,18.0,1.0,4.575340206185567,0.2541855670103093,6.886243845848224e-07,1.0,reverser,neutral,14.0,6.0,7.0,both reverse
+tosedostat,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,18.0,1.0,4.575340206185567,0.2541855670103093,6.886243845848224e-07,1.0,reverser,,7.0,3.0,3.0,both reverse
+cerulenin,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,17.0,0.0,4.3211546391752576,0.0,3.4355215303613463e-06,1.0,reverser,,3.0,1.0,3.0,both reverse
+COL-3,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,17.0,1.0,4.3211546391752576,0.2541855670103093,4.7141662134445354e-06,1.0,,reverser,5.0,0.0,5.0,both reverse
+gossypol,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,17.0,5.0,4.3211546391752576,1.2709278350515465,3.4355215303613463e-06,0.83636754056501,reverser,,4.0,1.0,3.0,both reverse
+irinotecan,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,17.0,2.0,4.3211546391752576,0.5083711340206186,3.4355215303613463e-06,1.0,reverser,reverser,12.0,4.0,5.0,both reverse
+PF-562271,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,17.0,0.0,4.3211546391752576,0.0,3.4355215303613463e-06,1.0,reverser,reverser,7.0,0.0,4.0,both reverse
+BX-795,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,16.0,0.0,4.066969072164949,0.0,1.6642248828651485e-05,1.0,reverser,,10.0,2.0,8.0,both reverse
+ivermectin,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HA1E,reverser,15.0,2.0,3.8127835051546395,0.5083711340206186,9.208693793143056e-05,1.0,,reverser,4.0,0.0,3.0,both reverse
+niclosamide,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,reverser,15.0,3.0,3.8127835051546395,0.7625567010309279,7.255558810379446e-05,1.0,reverser,reverser,11.0,1.0,4.0,both reverse
+olaparib,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,15.0,0.0,3.8127835051546395,0.0,7.255558810379446e-05,1.0,reverser,,8.0,3.0,6.0,both reverse
+triciribine,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,15.0,0.0,3.8127835051546395,0.0,7.255558810379446e-05,1.0,reverser,reverser,16.0,0.0,4.0,both reverse
+CAY-10618,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,14.0,0.0,3.55859793814433,0.0,0.0002935369199368657,1.0,reverser,,7.0,0.0,7.0,both reverse
+torin-1,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,14.0,9.0,3.55859793814433,2.2876701030927835,0.0002935369199368657,0.11760325162650913,reverser,neutral,20.0,1.0,8.0,both reverse
+belinostat,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,13.0,4.0,3.3044123711340205,1.0167422680412372,0.0010691916395721606,1.0,reverser,reverser,3.0,1.0,2.0,both reverse
+doxorubicin,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,13.0,1.0,3.3044123711340205,0.2541855670103093,0.0010691916395721606,1.0,reverser,reverser,40.0,12.0,7.0,both reverse
+floxuridine,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,reverser,13.0,2.0,3.3044123711340205,0.5083711340206186,0.0010691916395721606,1.0,reverser,neutral,4.0,7.0,2.0,"local reverses, SigCom not flagged"
+latrunculin-b,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,13.0,0.0,3.3044123711340205,0.0,0.001342131695357141,1.0,,reverser,4.0,0.0,3.0,both reverse
+BRD-K08448573,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,12.0,7.0,3.0502268041237115,1.779298969072165,0.004391794941390136,0.41180555054858126,,reverser,4.0,0.0,4.0,both reverse
+FLUDARABINE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HA1E,reverser,12.0,0.0,3.0502268041237115,0.0,0.004391794941390136,1.0,,reverser,,,,not in SigCom summary
+KUC111774N,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,12.0,0.0,3.0502268041237115,0.0,0.004391794941390136,1.0,,reverser,4.0,0.0,4.0,both reverse
+nifedipine,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,reverser,12.0,0.0,3.0502268041237115,0.0,0.0035725814058198187,1.0,reverser,neutral,3.0,0.0,3.0,both reverse
+PCI-24781,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,12.0,1.0,3.0502268041237115,0.2541855670103093,0.0035725814058198187,1.0,reverser,reverser,13.0,0.0,6.0,both reverse
+PD-407824,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,12.0,8.0,3.0502268041237115,2.0334845360824745,0.0035725814058198187,0.22769529287440404,reverser,reverser,3.0,0.0,2.0,both reverse
+sertraline,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,reverser,12.0,2.0,3.0502268041237115,0.5083711340206186,0.0035725814058198187,1.0,reverser,reverser,11.0,0.0,4.0,both reverse
+dacinostat,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,11.0,0.0,2.796041237113402,0.0,0.010649383821330198,1.0,reverser,reverser,5.0,0.0,3.0,both reverse
+OSI-027,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,11.0,9.0,2.796041237113402,2.2876701030927835,0.010649383821330198,0.11760325162650913,reverser,mimicker,5.0,2.0,3.0,both reverse
+WHI-P154,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,11.0,2.0,2.796041237113402,0.5083711340206186,0.010649383821330198,1.0,reverser,neutral,3.0,0.0,1.0,both reverse
+BRD-K55896799,ranking: 2b: reversal (<10 cell lines),HA1E,reverser,10.0,3.0,2.541855670103093,0.7625567010309279,0.035135665954008945,1.0,,reverser,4.0,0.0,1.0,both reverse
+nortriptyline,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,reverser,10.0,1.0,2.541855670103093,0.2541855670103093,0.029699483871293397,1.0,reverser,neutral,3.0,0.0,3.0,both reverse
+WYE-125132,ranking: 2b: reversal (<10 cell lines),HEPG2,reverser,10.0,7.0,2.541855670103093,1.779298969072165,0.029699483871293397,0.4013243683234608,reverser,reverser,9.0,1.0,4.0,both reverse
+BIIB-021,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,9.0,1.0,2.2876701030927835,0.2541855670103093,0.07373053599382179,1.0,neutral,neutral,7.0,1.0,3.0,"SigCom reverses, local neutral"
+BRD-K01737880,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,9.0,2.0,2.2876701030927835,0.5083711340206186,0.07373053599382179,1.0,neutral,neutral,5.0,1.0,2.0,"SigCom reverses, local neutral"
+danusertib,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,9.0,3.0,2.2876701030927835,0.7625567010309279,0.07373053599382179,1.0,neutral,neutral,10.0,0.0,3.0,"SigCom reverses, local neutral"
+fluspirilene,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,neutral,9.0,1.0,2.2876701030927835,0.2541855670103093,0.07373053599382179,1.0,neutral,neutral,3.0,0.0,3.0,"SigCom reverses, local neutral"
+ixazomib,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,9.0,1.0,2.2876701030927835,0.2541855670103093,0.07373053599382179,1.0,neutral,,12.0,1.0,8.0,"SigCom reverses, local neutral"
+Merck60,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,9.0,4.0,2.2876701030927835,1.0167422680412372,0.07373053599382179,1.0,neutral,reverser,3.0,0.0,2.0,"SigCom reverses, local neutral"
+PI-103,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,9.0,6.0,2.2876701030927835,1.5251134020618557,0.07373053599382179,0.6091494621983831,neutral,,12.0,4.0,9.0,"SigCom reverses, local neutral"
+radicicol,ranking: 2b: reversal (<10 cell lines),HA1E,neutral,9.0,3.0,2.2876701030927835,0.7625567010309279,0.081690399212827,1.0,,neutral,9.0,3.0,2.0,"SigCom reverses, local neutral"
+7b-cis,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,8.0,0.0,2.0334845360824745,0.0,0.16224237294713362,1.0,neutral,,8.0,0.0,8.0,"SigCom reverses, local neutral"
+bortezomib,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,8.0,2.0,2.0334845360824745,0.5083711340206186,0.16224237294713362,1.0,neutral,,22.0,4.0,7.0,"SigCom reverses, local neutral"
+dichlorobenzamil,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,8.0,4.0,2.0334845360824745,1.0167422680412372,0.16224237294713362,1.0,neutral,reverser,3.0,0.0,3.0,"SigCom reverses, local neutral"
+kinetin-riboside,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,8.0,2.0,2.0334845360824745,0.5083711340206186,0.16224237294713362,1.0,neutral,,3.0,0.0,2.0,"SigCom reverses, local neutral"
+PLX-4720,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,8.0,3.0,2.0334845360824745,0.7625567010309279,0.16224237294713362,1.0,neutral,reverser,4.0,1.0,3.0,"SigCom reverses, local neutral"
+thapsigargin,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,8.0,1.0,2.0334845360824745,0.2541855670103093,0.16224237294713362,1.0,neutral,reverser,9.0,0.0,4.0,"SigCom reverses, local neutral"
+A-23187,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,7.0,0.0,1.779298969072165,0.0,0.3137695201779867,1.0,neutral,,4.0,0.0,2.0,"SigCom reverses, local neutral"
+BRD-K49010888,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,7.0,3.0,1.779298969072165,0.7625567010309279,0.3137695201779867,1.0,neutral,neutral,3.0,0.0,3.0,"SigCom reverses, local neutral"
+doconexent,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,neutral,7.0,4.0,1.779298969072165,1.0167422680412372,0.3137695201779867,1.0,neutral,neutral,7.0,2.0,2.0,"SigCom reverses, local neutral"
+GSK-1070916,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,7.0,2.0,1.779298969072165,0.5083711340206186,0.3137695201779867,1.0,neutral,neutral,11.0,2.0,4.0,"SigCom reverses, local neutral"
+ISOX,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,7.0,2.0,1.779298969072165,0.5083711340206186,0.3137695201779867,1.0,neutral,,4.0,0.0,3.0,"SigCom reverses, local neutral"
+lasalocid,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,7.0,2.0,1.779298969072165,0.5083711340206186,0.3137695201779867,1.0,neutral,reverser,6.0,1.0,5.0,"SigCom reverses, local neutral"
+mibefradil,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,7.0,3.0,1.779298969072165,0.7625567010309279,0.3137695201779867,1.0,neutral,reverser,3.0,1.0,2.0,"SigCom reverses, local neutral"
+mitoxantrone,ranking: 2: strong reversal only,HEPG2,neutral,7.0,3.0,1.779298969072165,0.7625567010309279,0.3137695201779867,1.0,neutral,reverser,103.0,19.0,15.0,"SigCom reverses, local neutral"
+TPCA-1,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,7.0,4.0,1.779298969072165,1.0167422680412372,0.3137695201779867,1.0,neutral,,9.0,1.0,4.0,"SigCom reverses, local neutral"
+axitinib,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,neutral,6.0,4.0,1.5251134020618557,1.0167422680412372,0.5258268541542457,1.0,neutral,neutral,4.0,5.0,2.0,neither
+BRD-K73261812,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,6.0,2.0,1.5251134020618557,0.5083711340206186,0.5258268541542457,1.0,neutral,,9.0,1.0,7.0,"SigCom reverses, local neutral"
+CGK-733,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,6.0,1.0,1.5251134020618557,0.2541855670103093,0.5258268541542457,1.0,neutral,reverser,9.0,2.0,6.0,"SigCom reverses, local neutral"
+kenpaullone,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,6.0,1.0,1.5251134020618557,0.2541855670103093,0.5258268541542457,1.0,neutral,neutral,4.0,0.0,4.0,"SigCom reverses, local neutral"
+NVP-BEZ235,ranking: 2: strong reversal only,HEPG2,neutral,6.0,6.0,1.5251134020618557,1.5251134020618557,0.5258268541542457,0.6091494621983831,neutral,,52.0,9.0,15.0,"SigCom reverses, local neutral"
+QL-XI-92,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,6.0,4.0,1.5251134020618557,1.0167422680412372,0.5258268541542457,1.0,neutral,neutral,5.0,2.0,4.0,"SigCom reverses, local neutral"
+tamoxifen,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,6.0,3.0,1.5251134020618557,0.7625567010309279,0.5258268541542457,1.0,neutral,neutral,8.0,2.0,4.0,"SigCom reverses, local neutral"
+ZSTK-474,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,6.0,7.0,1.5251134020618557,1.779298969072165,0.5258268541542457,0.4013243683234608,neutral,neutral,7.0,2.0,5.0,"SigCom reverses, local neutral"
+cediranib,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,5.0,0.0,1.2709278350515465,0.0,0.757110766147378,1.0,neutral,neutral,3.0,0.0,2.0,"SigCom reverses, local neutral"
+ciclacillin,"client list; ranking: 4: client list, no reversal",HEPG2,neutral,5.0,3.0,1.2709278350515465,0.7625567010309279,0.757110766147378,1.0,neutral,neutral,,,,not in SigCom summary
+FASUDIL,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,neutral,5.0,6.0,1.2709278350515465,1.5251134020618557,0.757110766147378,0.6091494621983831,neutral,neutral,,,,not in SigCom summary
+GSK-2334470,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,5.0,1.0,1.2709278350515465,0.2541855670103093,0.757110766147378,1.0,neutral,,6.0,2.0,6.0,"SigCom reverses, local neutral"
+JNJ-26481585,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,5.0,1.0,1.2709278350515465,0.2541855670103093,0.757110766147378,1.0,neutral,reverser,3.0,0.0,2.0,"SigCom reverses, local neutral"
+pitavastatin,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,neutral,5.0,1.0,1.2709278350515465,0.2541855670103093,0.757110766147378,1.0,neutral,neutral,16.0,1.0,6.0,"SigCom reverses, local neutral"
+PP-30,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,5.0,4.0,1.2709278350515465,1.0167422680412372,0.757110766147378,1.0,neutral,,7.0,0.0,7.0,"SigCom reverses, local neutral"
+simvastatin,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,5.0,3.0,1.2709278350515465,0.7625567010309279,0.757110766147378,1.0,neutral,reverser,10.0,3.0,7.0,"SigCom reverses, local neutral"
+sunitinib,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,5.0,3.0,1.2709278350515465,0.7625567010309279,0.757110766147378,1.0,neutral,mimicker,8.0,0.0,7.0,"SigCom reverses, local neutral"
+wortmannin,ranking: 2: strong reversal only,HEPG2,neutral,5.0,2.0,1.2709278350515465,0.5083711340206186,0.757110766147378,1.0,neutral,reverser,108.0,9.0,14.0,"SigCom reverses, local neutral"
+XMD8-92,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,neutral,5.0,4.0,1.2709278350515465,1.0167422680412372,0.757110766147378,1.0,neutral,reverser,,,,not in SigCom summary
+BMS-754807,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,4.0,4.0,1.0167422680412372,1.0167422680412372,0.956411876335992,1.0,neutral,,8.0,1.0,4.0,"SigCom reverses, local neutral"
+calcipotriol,ranking: 2b: reversal (<10 cell lines),HA1E,neutral,4.0,7.0,1.0167422680412372,1.779298969072165,0.9256820781801361,0.41180555054858126,,neutral,3.0,0.0,3.0,"SigCom reverses, local neutral"
+midostaurin,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,4.0,6.0,1.0167422680412372,1.5251134020618557,0.956411876335992,0.6091494621983831,neutral,neutral,11.0,3.0,5.0,"SigCom reverses, local neutral"
+naftidrofuryl,"client list; ranking: 4: client list, no reversal",HEPG2,neutral,4.0,5.0,1.0167422680412372,1.2709278350515465,0.956411876335992,0.83636754056501,neutral,neutral,,,,not in SigCom summary
+pemetrexed,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,neutral,4.0,4.0,1.0167422680412372,1.0167422680412372,0.956411876335992,1.0,neutral,,1.0,11.0,1.0,neither
+tanespimycin,ranking: 2: strong reversal only,HEPG2,neutral,4.0,2.0,1.0167422680412372,0.5083711340206186,0.956411876335992,1.0,neutral,,18.0,7.0,10.0,"SigCom reverses, local neutral"
+tipifarnib-P2,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,4.0,7.0,1.0167422680412372,1.779298969072165,0.956411876335992,0.4013243683234608,neutral,,9.0,2.0,5.0,"SigCom reverses, local neutral"
+azacitidine,ranking: 2b: reversal (<10 cell lines),HA1E,neutral,3.0,2.0,0.7625567010309279,0.5083711340206186,1.0,1.0,,neutral,5.0,2.0,3.0,"SigCom reverses, local neutral"
+benzylpenicillin,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,3.0,2.0,0.7625567010309279,0.5083711340206186,1.0,1.0,neutral,neutral,4.0,0.0,2.0,"SigCom reverses, local neutral"
+BRD-K18710049,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,3.0,1.0,0.7625567010309279,0.2541855670103093,1.0,1.0,neutral,,3.0,0.0,2.0,"SigCom reverses, local neutral"
+mepacrine,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,3.0,1.0,0.7625567010309279,0.2541855670103093,1.0,1.0,neutral,,5.0,1.0,4.0,"SigCom reverses, local neutral"
+oxybenzone,"client list; ranking: 4: client list, no reversal",HEPG2,neutral,3.0,6.0,0.7625567010309279,1.5251134020618557,1.0,0.6091494621983831,neutral,neutral,,,,not in SigCom summary
+PD-173074,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,3.0,3.0,0.7625567010309279,0.7625567010309279,1.0,1.0,neutral,neutral,4.0,0.0,4.0,"SigCom reverses, local neutral"
+raloxifene,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,neutral,3.0,8.0,0.7625567010309279,2.0334845360824745,1.0,0.22769529287440404,neutral,neutral,5.0,1.0,2.0,"SigCom reverses, local neutral"
+AMILORIDE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,neutral,2.0,3.0,0.5083711340206186,0.7625567010309279,1.0,1.0,neutral,neutral,,,,not in SigCom summary
+bromhexine,"client list; ranking: 4: client list, no reversal",HEPG2,neutral,2.0,7.0,0.5083711340206186,1.779298969072165,1.0,0.4013243683234608,neutral,neutral,,,,not in SigCom summary
+CAM-9-027-3,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,2.0,2.0,0.5083711340206186,0.5083711340206186,1.0,1.0,neutral,,3.0,1.0,3.0,"SigCom reverses, local neutral"
+CGS-15943,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,2.0,0.0,0.5083711340206186,0.0,1.0,1.0,neutral,neutral,6.0,0.0,2.0,"SigCom reverses, local neutral"
+flupirtine,"client list; ranking: 4: client list, no reversal",HEPG2,neutral,2.0,8.0,0.5083711340206186,2.0334845360824745,1.0,0.22769529287440404,neutral,,,,,not in SigCom summary
+fulvestrant,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,2.0,3.0,0.5083711340206186,0.7625567010309279,1.0,1.0,neutral,reverser,37.0,10.0,1.0,"SigCom reverses, local neutral"
+perphenazine,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,neutral,2.0,4.0,0.5083711340206186,1.0167422680412372,1.0,1.0,neutral,reverser,3.0,0.0,2.0,"SigCom reverses, local neutral"
+tubacin,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,2.0,6.0,0.5083711340206186,1.5251134020618557,1.0,0.6091494621983831,neutral,neutral,3.0,0.0,3.0,"SigCom reverses, local neutral"
+zoxazolamine,"client list; ranking: 4: client list, no reversal",HEPG2,neutral,2.0,5.0,0.5083711340206186,1.2709278350515465,1.0,0.83636754056501,neutral,neutral,,,,not in SigCom summary
+AS-703026,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,1.0,10.0,0.2541855670103093,2.541855670103093,1.0,0.054899045943905975,neutral,mimicker,14.0,0.0,5.0,"SigCom reverses, local neutral"
+AZD-8055,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,1.0,7.0,0.2541855670103093,1.779298969072165,1.0,0.4013243683234608,neutral,,14.0,0.0,8.0,"SigCom reverses, local neutral"
+cyanoquinoline-11,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,1.0,7.0,0.2541855670103093,1.779298969072165,1.0,0.4013243683234608,neutral,,7.0,1.0,5.0,"SigCom reverses, local neutral"
+linsitinib,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,1.0,4.0,0.2541855670103093,1.0167422680412372,1.0,1.0,neutral,,8.0,0.0,4.0,"SigCom reverses, local neutral"
+mevastatin,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,1.0,4.0,0.2541855670103093,1.0167422680412372,1.0,1.0,neutral,reverser,4.0,0.0,3.0,"SigCom reverses, local neutral"
+MK-2206,ranking: 2: strong reversal only,HEPG2,neutral,1.0,4.0,0.2541855670103093,1.0167422680412372,1.0,1.0,neutral,,15.0,4.0,13.0,"SigCom reverses, local neutral"
+paroxetine,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,1.0,7.0,0.2541855670103093,1.779298969072165,1.0,0.4013243683234608,neutral,neutral,4.0,0.0,2.0,"SigCom reverses, local neutral"
+U-0126,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,1.0,0.0,0.2541855670103093,0.0,1.0,1.0,neutral,reverser,3.0,0.0,3.0,"SigCom reverses, local neutral"
+atorvastatin,ranking: 2b: reversal (<10 cell lines),HEPG2,neutral,0.0,2.0,0.0,0.5083711340206186,1.0,1.0,neutral,neutral,5.0,0.0,3.0,"SigCom reverses, local neutral"
+benzbromarone,"client list; ranking: 4: client list, no reversal",HEPG2,neutral,0.0,5.0,0.0,1.2709278350515465,1.0,0.83636754056501,neutral,neutral,,,,not in SigCom summary
+torin-2,ranking: 2b: reversal (<10 cell lines),HEPG2,mimicker,6.0,18.0,1.5251134020618557,4.575340206185567,0.5258268541542457,6.312390192027538e-06,mimicker,neutral,9.0,0.0,3.0,"CONFLICT (SigCom reverses, local mimics)"
+CAPECITABINE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,mimicker,4.0,16.0,1.0167422680412372,4.066969072164949,0.956411876335992,9.894573394489155e-05,mimicker,neutral,,,,not in SigCom summary
+deforolimus,ranking: 2b: reversal (<10 cell lines),HEPG2,mimicker,4.0,11.0,1.0167422680412372,2.796041237113402,0.956411876335992,0.02365200226984572,mimicker,neutral,5.0,0.0,1.0,"CONFLICT (SigCom reverses, local mimics)"
+nicergoline,"client list; ranking: 4: client list, no reversal",HEPG2,mimicker,4.0,16.0,1.0167422680412372,4.066969072164949,0.956411876335992,9.894573394489155e-05,mimicker,neutral,,,,not in SigCom summary
+colforsin,"client list; ranking: 4: client list, no reversal",HEPG2,mimicker,3.0,18.0,0.7625567010309279,4.575340206185567,1.0,6.312390192027538e-06,mimicker,mimicker,,,,not in SigCom summary
+dexamethasone,"client list; ranking: 4: client list, no reversal",HEPG2,mimicker,3.0,11.0,0.7625567010309279,2.796041237113402,1.0,0.02365200226984572,mimicker,neutral,1.0,13.0,1.0,neither
+GSK429286A,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,mimicker,3.0,24.0,0.7625567010309279,6.100453608247423,1.0,2.4279832140121195e-10,mimicker,mimicker,,,,not in SigCom summary
+lenalidomide,"client list; ranking: 4: client list, no reversal",HEPG2,mimicker,3.0,20.0,0.7625567010309279,5.083711340206186,1.0,3.146297291157621e-07,mimicker,neutral,,,,not in SigCom summary
+raltitrexed,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HEPG2,mimicker,3.0,17.0,0.7625567010309279,4.3211546391752576,1.0,2.6955630468989023e-05,mimicker,neutral,1.0,3.0,1.0,neither
+TG-101348,client list; ranking: 1: reversal + independent support,HEPG2,mimicker,3.0,16.0,0.7625567010309279,4.066969072164949,1.0,9.894573394489155e-05,mimicker,,23.0,2.0,12.0,"CONFLICT (SigCom reverses, local mimics)"
+mephentermine,"client list; ranking: 4: client list, no reversal",HEPG2,mimicker,2.0,11.0,0.5083711340206186,2.796041237113402,1.0,0.02365200226984572,mimicker,neutral,,,,not in SigCom summary
+anastrozole,"client list; ranking: 4: client list, no reversal",HEPG2,mimicker,1.0,13.0,0.2541855670103093,3.3044123711340205,1.0,0.003273035631343349,mimicker,neutral,,,,not in SigCom summary
+PD-0325901,ranking: 2: strong reversal only,HEPG2,mimicker,1.0,13.0,0.2541855670103093,3.3044123711340205,1.0,0.003273035631343349,mimicker,mimicker,72.0,6.0,13.0,"CONFLICT (SigCom reverses, local mimics)"
+Y27632,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",HA1E,mimicker,1.0,11.0,0.2541855670103093,2.796041237113402,1.0,0.02875248131050607,,mimicker,,,,not in SigCom summary
+carvedilol,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,HEPG2,mimicker,0.0,17.0,0.0,4.3211546391752576,1.0,2.6955630468989023e-05,mimicker,reverser,3.0,0.0,2.0,"CONFLICT (SigCom reverses, local mimics)"
+ciprofibrate,"client list; ranking: 4: client list, no reversal",HEPG2,mimicker,0.0,11.0,0.0,2.796041237113402,1.0,0.02365200226984572,mimicker,neutral,,,,not in SigCom summary
+17-AAG,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,11.0,1.0,1.0,no signature in any cell line
+3-Cl-AHPC,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,0.0,3.0,no signature in any cell line
+acivicin,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,1.0,2.0,no signature in any cell line
+ACY-1215,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,4.0,no signature in any cell line
+AMG-232,ranking: 2: strong reversal only,,,,,,,,,,,51.0,3.0,20.0,no signature in any cell line
+anguidine,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,1.0,4.0,no signature in any cell line
+AP-26113,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,10.0,3.0,5.0,no signature in any cell line
+aripiprazole,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,10.0,0.0,8.0,no signature in any cell line
+ASPACYTARABINE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+AVL-292,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,2.0,4.0,no signature in any cell line
+AZD-2014,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,11.0,0.0,5.0,no signature in any cell line
+AZD-4547,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,8.0,1.0,8.0,no signature in any cell line
+AZD-5438,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,10.0,0.0,8.0,no signature in any cell line
+AZD-8330,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,10.0,1.0,2.0,no signature in any cell line
+AZD-8931,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,0.0,1.0,no signature in any cell line
+AZD-9291,ranking: 2: strong reversal only,,,,,,,,,,,24.0,4.0,16.0,no signature in any cell line
+BAY-61-3606,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,1.0,3.0,no signature in any cell line
+BAY-87-2243,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,1.0,no signature in any cell line
+bazedoxifene,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,,,,,,,,,,,4.0,0.0,3.0,no signature in any cell line
+BELUMOSUDIL,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+BGT-226,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,14.0,1.0,8.0,no signature in any cell line
+BIIB091,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+BMS-509744,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,1.0,3.0,no signature in any cell line
+BRD-A19037878,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,14.0,1.0,9.0,no signature in any cell line
+BRD-A28105619,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,7.0,1.0,3.0,no signature in any cell line
+BRD-K04065047,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
+BRD-K04923131,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,3.0,no signature in any cell line
+BRD-K10211010,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+BRD-K10749593,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+BRD-K15050703,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+BRD-K20109053,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
+BRD-K23018071,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,4.0,no signature in any cell line
+BRD-K26664453,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,8.0,1.0,8.0,no signature in any cell line
+BRD-K28934562,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,0.0,4.0,no signature in any cell line
+BRD-K34311178,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,7.0,1.0,7.0,no signature in any cell line
+BRD-K39597586,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+BRD-K41335306,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,2.0,no signature in any cell line
+BRD-K42197878,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,0.0,4.0,no signature in any cell line
+BRD-K44242139,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,0.0,4.0,no signature in any cell line
+BRD-K47000838,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
+BRD-K47869605,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,0.0,1.0,no signature in any cell line
+BRD-K52981369,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,3.0,no signature in any cell line
+BRD-K59333713,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+BRD-K61195623,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,2.0,1.0,no signature in any cell line
+BRD-K63423329,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,2.0,no signature in any cell line
+BRD-K67548518,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,1.0,no signature in any cell line
+BRD-K68202742,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,1.0,2.0,no signature in any cell line
+BRD-K68336408,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,2.0,4.0,no signature in any cell line
+BRD-K68552125,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,17.0,1.0,7.0,no signature in any cell line
+BRD-K69894866,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,0.0,3.0,no signature in any cell line
+BRD-K72318460,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+BRD-K73008154,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,0.0,5.0,no signature in any cell line
+BRD-K74305673,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,10.0,0.0,6.0,no signature in any cell line
+BRD-K74316684,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,1.0,2.0,no signature in any cell line
+BRD-K74461819,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+BRD-K76674262,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,11.0,2.0,9.0,no signature in any cell line
+BRD-K86961442,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,3.0,no signature in any cell line
+BRD-K87125912,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
+BRD-K91041732,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,0.0,1.0,no signature in any cell line
+BRD-K93830491,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,2.0,no signature in any cell line
+BRD-K97972722,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,1.0,no signature in any cell line
+BRD-K99999497,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
+brequinar,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,1.0,no signature in any cell line
+BVD-523,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,0.0,5.0,no signature in any cell line
+C-646,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,9.0,0.0,7.0,no signature in any cell line
+cabazitaxel,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,0.0,2.0,no signature in any cell line
+CEP-37440,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,16.0,1.0,8.0,no signature in any cell line
+CGM-097,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,0.0,5.0,no signature in any cell line
+CIL56,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+cobimetinib,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,29.0,3.0,8.0,no signature in any cell line
+COFORMYCIN,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+colchicine,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,,,,,,,,,,,11.0,5.0,2.0,no signature in any cell line
+COMPOUND 22 [PMID: 20462760],"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+COMPOUND 33 [PMID: 19364658],"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+COMPOUND 35 [PMID: 20684608],"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+"COMPOUND 6LI [CHAN ET AL., 2022]","direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+COMPOUND 8 [PMID: 25898023],"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+COMPOUND E22 [PMID: 31298542],"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+COMPOUND R-16 [PMID: 21967808],"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+CORTISTATIN A,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+CX-5461,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,9.0,1.0,3.0,no signature in any cell line
+CYT-387,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,9.0,1.0,7.0,no signature in any cell line
+CYTARABINE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+CZS-241,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+dabrafenib,ranking: 2: strong reversal only,,,,,,,,,,,25.0,1.0,13.0,no signature in any cell line
+DOXIFLURIDINE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+etravirine,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+FELZARTAMAB,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+flumatinib,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
+fluorouracil,direct inhibitor of a Step 2b enzyme; ranking: 1: reversal + independent support,,,,,,,,,,,8.0,0.0,3.0,no signature in any cell line
+foretinib,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,7.0,0.0,4.0,no signature in any cell line
+GALLIUM NITRATE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+ganetespib,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,8.0,0.0,1.0,no signature in any cell line
+GDC-0349,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,15.0,0.0,7.0,no signature in any cell line
+GDC-0980,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,22.0,0.0,6.0,no signature in any cell line
+GSK-2126458,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,11.0,0.0,4.0,no signature in any cell line
+GSK269962A,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+hexachlorophene,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,,,,,,,,,,,5.0,0.0,4.0,no signature in any cell line
+HSD1590,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+HUMAX-IL15,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+HYDROXYUREA,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+I-505056,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+IKK-16,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,1.0,4.0,no signature in any cell line
+ingenol-mebutate,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,,,,,,,,,,,10.0,0.0,3.0,no signature in any cell line
+ISATUXIMAB,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+ixabepilone,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
+JW-7-24-1,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,7.0,2.0,6.0,no signature in any cell line
+KPT-330,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,26.0,0.0,5.0,no signature in any cell line
+KU-60019,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,0.0,4.0,no signature in any cell line
+KW-2449,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,1.0,3.0,no signature in any cell line
+KW-2478,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,2.0,5.0,no signature in any cell line
+lomitapide,ranking: 2b: reversal (<10 cell lines); repurposing shortlist,,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+LY-2835219,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,0.0,1.0,no signature in any cell line
+MEK-162,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,9.0,0.0,5.0,no signature in any cell line
+MERESTINIB,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+MLN-0128,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,21.0,0.0,8.0,no signature in any cell line
+MLN-4924,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,14.0,3.0,4.0,no signature in any cell line
+MOTEXAFIN GADOLINIUM,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+NETARSUDIL,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+NOLATREXED,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+NPC26,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
+nutlin-3,ranking: 2: strong reversal only,,,,,,,,,,,69.0,1.0,31.0,no signature in any cell line
+NVP-BGJ398,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,0.0,3.0,no signature in any cell line
+NVP-BHG712,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,1.0,3.0,no signature in any cell line
+OCIFISERTIB,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+OLECLUMAB,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+OSI-7904,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+PENTOSTATIN,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+PF-03758309,ranking: 2: strong reversal only,,,,,,,,,,,24.0,0.0,11.0,no signature in any cell line
+PF-03814735,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,11.0,0.0,7.0,no signature in any cell line
+PF-04691502,ranking: 2: strong reversal only,,,,,,,,,,,32.0,10.0,11.0,no signature in any cell line
+PF-05212384,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,8.0,1.0,5.0,no signature in any cell line
+PHA-848125,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,29.0,0.0,7.0,no signature in any cell line
+PKI-179,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,22.0,0.0,6.0,no signature in any cell line
+pterostilbene,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,10.0,1.0,7.0,no signature in any cell line
+purpurogallin,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,1.0,3.0,no signature in any cell line
+R-547,ranking: 2: strong reversal only,,,,,,,,,,,82.0,0.0,38.0,no signature in any cell line
+RAF-265,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,5.0,1.0,4.0,no signature in any cell line
+refametinib,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,11.0,1.0,5.0,no signature in any cell line
+resminostat,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,0.0,5.0,no signature in any cell line
+RG-1530,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+RG7112,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,8.0,0.0,6.0,no signature in any cell line
+RG-7388,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,17.0,0.0,4.0,no signature in any cell line
+RIPASUDIL,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+RITUXIMAB,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+RKI-1447,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+Ro-4987655,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,21.0,0.0,5.0,no signature in any cell line
+rociletinib,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,7.0,0.0,4.0,no signature in any cell line
+ROCK INHIBITOR 3,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+SAR405838,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,13.0,0.0,7.0,no signature in any cell line
+SAR407899,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+SB-939,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,12.0,0.0,6.0,no signature in any cell line
+STA-5326,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,6.0,0.0,2.0,no signature in any cell line
+TAK-733,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,33.0,0.0,6.0,no signature in any cell line
+TAS-103,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,18.0,0.0,4.0,no signature in any cell line
+tenovin-6,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,7.0,0.0,7.0,no signature in any cell line
+tenovins,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,3.0,no signature in any cell line
+TEZACITABINE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+TIPIRACIL HYDROCHLORIDE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+TRIAPINE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+TROXACITABINE,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+URACIL,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+valrubicin,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,9.0,3.0,6.0,no signature in any cell line
+VEROSUDIL,"direct inhibitor of a Step 2b enzyme; ranking: 3: enzyme-targeting, reversal not shown",,,,,,,,,,,,,,no signature in any cell line
+vortioxetine,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,1.0,3.0,no signature in any cell line
+voxtalisib,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,4.0,1.0,3.0,no signature in any cell line
+XL-888,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,9.0,0.0,3.0,no signature in any cell line
+YM-201636,ranking: 2b: reversal (<10 cell lines),,,,,,,,,,,3.0,0.0,2.0,no signature in any cell line
