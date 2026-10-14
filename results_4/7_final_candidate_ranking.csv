@@ -1,0 +1,338 @@
+drug,tier,evidence_points,evidence_detail,drug_class,approved,anti_neoplastic,sigcom_n_reversing,sigcom_n_mimicking,sigcom_cell_lines_reversing,sigcom_median_z_up,metabolic_target_genes,metabolic_target_tierA,client_list,client_nes,client_proximity_z,client_contraindications,n_known_targets
+TG-101348,1: reversal + independent support,6,"reversal:3,client_signature:1,client_proximity:1,client_safety:1",anti-cancer (cytotoxic/targeted),True,True,23.0,2.0,12.0,-11.426051728052332,,,True,-1.5516,-3.62926244275708,0.0,7.0
+fluorouracil,1: reversal + independent support,5,"reversal:2,metabolic_target:3",anti-cancer (cytotoxic/targeted),True,True,8.0,0.0,3.0,-12.287457003633422,DTYMK;TYMP;TYMS,TYMS,False,,,,119.0
+palbociclib,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),True,True,262.0,0.0,76.0,-11.717111152273516,,,False,,,,49.0
+PHA-793887,2: strong reversal only,3,reversal:3,investigational / not annotated,False,False,64.0,0.0,39.0,-10.569859799111166,,,False,,,,21.0
+R-547,2: strong reversal only,3,reversal:3,investigational / not annotated,False,False,82.0,0.0,38.0,-11.916621917916716,,,False,,,,7.0
+nutlin-3,2: strong reversal only,3,reversal:3,investigational / not annotated,False,False,69.0,1.0,31.0,-11.132643433367006,,,False,,,,2.0
+vorinostat,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),True,True,71.0,3.0,20.0,-10.586301892360153,,,False,,,,55.0
+AMG-232,2: strong reversal only,3,reversal:3,not found in DGIdb,False,False,51.0,3.0,20.0,-11.632322657470375,,,False,,,,
+AZD-9291,2: strong reversal only,3,reversal:3,not found in DGIdb,False,False,24.0,4.0,16.0,-11.464063326904956,,,False,,,,
+JNJ-7706621,2: strong reversal only,3,reversal:3,investigational / not annotated,False,False,16.0,2.0,16.0,-10.434012016474714,,,False,,,,55.0
+rucaparib,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),True,True,16.0,1.0,16.0,-9.632717773442405,,,False,,,,22.0
+teniposide,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),True,True,26.0,0.0,16.0,-10.971001042767645,,,False,,,,9.0
+NVP-BEZ235,2: strong reversal only,3,reversal:3,not found in DGIdb,False,False,52.0,9.0,15.0,-11.194874178285865,,,False,,,,
+mitoxantrone,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),True,True,103.0,19.0,15.0,-11.407117540530416,,,False,,,,57.0
+alvocidib,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),False,True,18.0,1.0,15.0,-10.460250618244876,,,False,,,,21.0
+obatoclax,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),False,True,16.0,1.0,14.0,-10.797385141753509,,,False,,,,11.0
+wortmannin,2: strong reversal only,3,reversal:3,investigational / not annotated,False,False,108.0,9.0,14.0,-11.121171206283002,,,False,,,,35.0
+MK-2206,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),False,True,15.0,4.0,13.0,-10.550782387780458,,,False,,,,9.0
+dabrafenib,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),True,True,25.0,1.0,13.0,-9.8441161152151,,,False,,,,27.0
+PD-0325901,2: strong reversal only,3,reversal:3,not found in DGIdb,False,False,72.0,6.0,13.0,-11.276268268820704,,,False,,,,
+pyrvinium-pamoate,2: strong reversal only,3,reversal:3,"approved, non-oncology",True,False,20.0,0.0,12.0,-11.277958309764417,,,False,,,,1.0
+PF-04691502,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),False,True,32.0,10.0,11.0,-11.274592550257871,,,False,,,,20.0
+CD-437,2: strong reversal only,3,reversal:3,not found in DGIdb,False,False,13.0,0.0,11.0,-10.465650155836224,,,False,,,,
+PF-03758309,2: strong reversal only,3,reversal:3,investigational / not annotated,False,False,24.0,0.0,11.0,-10.799332985553042,,,False,,,,1.0
+tanespimycin,2: strong reversal only,3,reversal:3,anti-cancer (cytotoxic/targeted),False,True,18.0,7.0,10.0,-10.779954804223877,,,False,,,,12.0
+MG-132,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,21.0,5.0,9.0,-9.392817893720684,,,False,,,,7.0
+PI-103,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,12.0,4.0,9.0,-10.090475388713209,,,False,,,,25.0
+BRD-K76674262,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,11.0,2.0,9.0,-10.086307575877449,,,False,,,,
+NSC-95397,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,1.0,9.0,-10.769742946657216,,,False,,,,
+BRD-A19037878,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,14.0,1.0,9.0,-10.951952276198693,,,False,,,,
+entinostat,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,12.0,4.0,9.0,-10.203235493372858,,,False,,,,21.0
+AZD-4547,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,8.0,1.0,8.0,-10.536946967851431,,,False,,,,10.0
+BRD-K26664453,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,8.0,1.0,8.0,-10.763527033355771,,,False,,,,
+aripiprazole,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,10.0,0.0,8.0,-11.115413609169678,,,False,,,,
+cobimetinib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,29.0,3.0,8.0,-11.384774626359317,,,False,,,,18.0
+AZD-8055,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,14.0,0.0,8.0,-11.43135100897753,,,False,,,,14.0
+AZD-5438,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,10.0,0.0,8.0,-10.79802964889306,,,False,,,,24.0
+7b-cis,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,8.0,0.0,8.0,-10.703774060328962,,,False,,,,
+CEP-37440,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,16.0,1.0,8.0,-11.208924433928075,,,False,,,,4.0
+torin-1,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,20.0,1.0,8.0,-10.361010841134917,,,False,,,,2.0
+FCCP,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,10.0,0.0,8.0,-11.000419213092922,,,False,,,,
+BX-795,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,10.0,2.0,8.0,-10.338954374581398,,,False,,,,9.0
+etoposide,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,20.0,4.0,8.0,-11.40887919337852,,,False,,,,59.0
+MLN-0128,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,21.0,0.0,8.0,-10.89726942600302,,,False,,,,
+ixazomib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,12.0,1.0,8.0,-10.852039347187423,,,False,,,,43.0
+BGT-226,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,14.0,1.0,8.0,-11.07552577842192,,,False,,,,11.0
+simvastatin,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,10.0,3.0,7.0,-10.446572744505518,,,False,,,,50.0
+NVP-TAE684,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,14.0,6.0,7.0,-10.940537338638205,,,False,,,,103.0
+sunitinib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,8.0,0.0,7.0,-11.39956964580723,,,False,,,,49.0
+PHA-848125,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,29.0,0.0,7.0,-11.886573562832766,,,False,,,,
+BRD-K34311178,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,7.0,1.0,7.0,-9.525557719706413,,,False,,,,
+bortezomib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,22.0,4.0,7.0,-9.694977163123022,,,False,,,,86.0
+AG-14361,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,7.0,0.0,7.0,-11.045592002385,,,False,,,,2.0
+tenovin-6,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,7.0,0.0,7.0,-10.72035937738674,,,False,,,,
+BRD-K73261812,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,1.0,7.0,-11.287697528762074,,,False,,,,
+SAR405838,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,13.0,0.0,7.0,-12.095537099856044,,,False,,,,1.0
+doxorubicin,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,40.0,12.0,7.0,-11.65562517116036,,,False,,,,150.0
+PF-03814735,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,11.0,0.0,7.0,-11.02301993011984,,,False,,,,2.0
+pterostilbene,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,10.0,1.0,7.0,-10.737804037297249,,,False,,,,4.0
+CAY-10618,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,7.0,0.0,7.0,-10.5883070256832,,,False,,,,
+C-646,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,9.0,0.0,7.0,-10.481519353850056,,,False,,,,1.0
+GDC-0349,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,15.0,0.0,7.0,-10.669199832887276,,,False,,,,1.0
+PP-30,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,7.0,0.0,7.0,-9.872273916023032,,,False,,,,
+BRD-K68552125,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,17.0,1.0,7.0,-11.355700193175132,,,False,,,,
+CYT-387,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,1.0,7.0,-10.819183805451209,,,False,,,,
+SN-38,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,16.0,7.0,7.0,-11.473387196857123,,,False,,,,25.0
+malonoben,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,8.0,0.0,7.0,-11.399225908666136,,,False,,,,
+GSK-2334470,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,6.0,2.0,6.0,-10.42200986129819,,,False,,,,6.0
+BRD-K74305673,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,10.0,0.0,6.0,-11.902843787511204,,,False,,,,
+olaparib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,8.0,3.0,6.0,-9.966128477922524,,,False,,,,44.0
+GDC-0980,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,22.0,0.0,6.0,-11.006234099729758,,,False,,,,
+RG7112,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,8.0,0.0,6.0,-11.316843573850653,,,False,,,,
+valrubicin,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,9.0,3.0,6.0,-11.91498916649652,,,False,,,,2.0
+PKI-179,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,22.0,0.0,6.0,-12.04794382819543,,,False,,,,3.0
+ENMD-2076,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,14.0,2.0,6.0,-11.341864773246106,,,False,,,,31.0
+CGK-733,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,2.0,6.0,-11.769645645337354,,,False,,,,
+JW-7-24-1,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,7.0,2.0,6.0,-10.202977690517038,,,False,,,,
+cyclosporin-a,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,13.0,4.0,6.0,-11.77795262624712,,,False,,,,
+amsacrine,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,27.0,1.0,6.0,-11.400729758658422,,,False,,,,24.0
+pitavastatin,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,16.0,1.0,6.0,-11.100933682101102,,,False,,,,6.0
+PCI-24781,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,13.0,0.0,6.0,-11.540487551274811,,,False,,,,
+SB-939,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,12.0,0.0,6.0,-10.543033979724967,,,False,,,,
+amonafide,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,8.0,2.0,6.0,-10.93506618914246,,,False,,,,2.0
+TAK-733,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,33.0,0.0,6.0,-11.32777155046126,,,False,,,,5.0
+CGM-097,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,0.0,5.0,-10.80209720506267,,,False,,,,
+refametinib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,11.0,1.0,5.0,-10.83164427681586,,,False,,,,13.0
+BRD-K73008154,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,5.0,-10.11449402144714,,,False,,,,
+WZ-4-145,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,0.0,5.0,-11.30505625438731,,,False,,,,
+ZSTK-474,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,7.0,2.0,5.0,-10.604290802744062,,,False,,,,14.0
+KW-2478,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,5.0,2.0,5.0,-11.520350283759068,,,False,,,,1.0
+PF-05212384,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,8.0,1.0,5.0,-10.5313325945469,,,False,,,,
+KPT-330,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,26.0,0.0,5.0,-11.496417585310413,,,False,,,,
+resminostat,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,6.0,0.0,5.0,-11.397292387247482,,,False,,,,15.0
+alisertib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,32.0,3.0,5.0,-10.595439571360895,,,False,,,,45.0
+AS-703026,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,14.0,0.0,5.0,-11.064998828475922,,,False,,,,
+Ro-4987655,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,21.0,0.0,5.0,-11.324821140000203,,,False,,,,2.0
+AP-26113,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,10.0,3.0,5.0,-11.071243386539123,,,False,,,,
+irinotecan,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,12.0,4.0,5.0,-11.45929397407228,,,False,,,,65.0
+COL-3,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,5.0,-10.800507420785111,,,False,,,,
+cyanoquinoline-11,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,7.0,1.0,5.0,-11.153410885641424,,,False,,,,
+BVD-523,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,0.0,5.0,-10.473198050559407,,,False,,,,
+lasalocid,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,1.0,5.0,-10.524056825060416,,,False,,,,
+AZD-2014,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,11.0,0.0,5.0,-11.2779010202409,,,False,,,,
+rhodomyrtoxin-b,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,5.0,0.0,5.0,-11.549539295990284,,,False,,,,2.0
+tipifarnib-P2,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,2.0,5.0,-10.200800688623444,,,False,,,,
+midostaurin,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,11.0,3.0,5.0,-11.412474110979126,,,False,,,,36.0
+MEK-162,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,0.0,5.0,-11.014541080639525,,,False,,,,
+niguldipine,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,5.0,0.0,5.0,-10.736686891588697,,,False,,,,8.0
+RG-7388,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,17.0,0.0,4.0,-12.042487001080566,,,False,,,,
+canertinib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,10.0,0.0,4.0,-10.583695219040193,,,False,,,,7.0
+QL-XI-92,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,2.0,4.0,-10.863554541414068,,,False,,,,
+BMS-754807,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,8.0,1.0,4.0,-11.283515393545432,,,False,,,,10.0
+mepacrine,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,1.0,4.0,-11.329948552354857,,,False,,,,
+AZD-7545,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,4.0,0.0,4.0,-10.058393255544454,,,False,,,,2.0
+BRD-K31706415,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,4.0,-11.744194774515533,,,False,,,,
+niclosamide,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,11.0,1.0,4.0,-10.815431341660934,,,False,,,,27.0
+BRD-K08448573,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,4.0,-11.257992910819215,,,False,,,,
+PF-562271,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,7.0,0.0,4.0,-10.480029826238647,,,False,,,,108.0
+BRD-K44242139,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,4.0,-9.792584188812786,,,False,,,,
+KUC111774N,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,4.0,-10.00608792057468,,,False,,,,
+KU-60019,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,5.0,0.0,4.0,-9.692442101707456,,,False,,,,4.0
+RAF-265,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,5.0,1.0,4.0,-10.635083921633717,,,False,,,,2.0
+BRD-K28934562,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,4.0,-11.363262410279196,,,False,,,,
+serdemetan,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,6.0,0.0,4.0,-9.868464162709245,,,False,,,,2.0
+lestaurtinib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,5.0,0.0,4.0,-10.438981882639697,,,False,,,,12.0
+TAS-103,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,18.0,0.0,4.0,-11.336436590893,,,False,,,,1.0
+IKK-16,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,1.0,4.0,-12.523403906232566,,,False,,,,
+BRD-K42197878,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,4.0,-10.96286593042842,,,False,,,,
+topotecan,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,20.0,6.0,4.0,-11.929125356424002,,,False,,,,25.0
+anguidine,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,1.0,4.0,-10.441115917390654,,,False,,,,
+ACY-1215,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,4.0,-10.240001045089016,,,False,,,,
+TPCA-1,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,1.0,4.0,-10.454392764465403,,,False,,,,
+GSK-2126458,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,11.0,0.0,4.0,-10.54261863067948,,,False,,,,
+MLN-4924,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,14.0,3.0,4.0,-11.610337802821252,,,False,,,,
+kenpaullone,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,4.0,0.0,4.0,-9.613153401161815,,,False,,,,48.0
+BRD-K68336408,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,2.0,4.0,-10.401829626639808,,,False,,,,
+hexachlorophene,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,5.0,0.0,4.0,-11.595800586229158,,,False,,,,41.0
+linsitinib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,8.0,0.0,4.0,-9.384009629480154,,,False,,,,7.0
+sertraline,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,11.0,0.0,4.0,-11.228116424305814,,,False,,,,20.0
+BRD-K23018071,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,4.0,-11.736919005029048,,,False,,,,
+tamoxifen,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,8.0,2.0,4.0,-11.132815301937557,,,False,,,,76.0
+triciribine,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,16.0,0.0,4.0,-10.563443372477415,,,False,,,,5.0
+GSK-1070916,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,11.0,2.0,4.0,-10.977646627495456,,,False,,,,5.0
+thapsigargin,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,9.0,0.0,4.0,-11.270625250754414,,,False,,,,4.0
+AVL-292,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,2.0,4.0,-10.925942832522596,,,False,,,,
+foretinib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,7.0,0.0,4.0,-11.657787850673076,,,False,,,,19.0
+PD-173074,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,4.0,0.0,4.0,-10.723137919277246,,,False,,,,8.0
+BRD-K78385490,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,4.0,-12.58583516448373,,,False,,,,
+rociletinib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,7.0,0.0,4.0,-9.94623469088172,,,False,,,,4.0
+WYE-125132,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,1.0,4.0,-11.072689947007897,,,False,,,,
+rottlerin,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,4.0,1.0,3.0,-11.217861599596514,,,False,,,,13.0
+CIL56,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-9.585625785112551,,,False,,,,
+KW-2449,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,4.0,1.0,3.0,-11.149629777089393,,,False,,,,8.0
+tosedostat,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,7.0,3.0,3.0,-11.22485092146542,,,False,,,,20.0
+purpurogallin,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,1.0,3.0,-9.464687600971049,,,False,,,,36.0
+BRD-K04923131,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,3.0,-11.016402990153782,,,False,,,,
+BRD-K15050703,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-12.63531899042036,,,False,,,,
+azacitidine,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,5.0,2.0,3.0,-11.781561866228603,,,False,,,,40.0
+ISOX,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,3.0,-9.113130439917352,,,False,,,,
+BRD-K39597586,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-11.846155803992485,,,False,,,,
+I-505056,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-10.311827785196744,,,False,,,,
+calcipotriol,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-9.219717598418192,,,False,,,,
+danusertib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,10.0,0.0,3.0,-9.413513734090706,,,False,,,,8.0
+BAY-61-3606,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,4.0,1.0,3.0,-10.11943524285036,,,False,,,,41.0
+NVP-BGJ398,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,3.0,-10.55639676108499,,,False,,,,
+BRD-K74461819,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-11.91327048079105,,,False,,,,
+dacinostat,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,5.0,0.0,3.0,-10.413545334198757,,,False,,,,19.0
+VU-0418946-1,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,3.0,-9.817777256778786,,,False,,,,
+NVP-BHG712,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,1.0,3.0,-10.067072618357074,,,False,,,,
+BRD-K69894866,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,3.0,-11.285090855442112,,,False,,,,
+BRD-K10749593,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-12.271158134193223,,,False,,,,
+U-0126,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,3.0,0.0,3.0,-10.754246130546235,,,False,,,,16.0
+XL-888,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,9.0,0.0,3.0,-11.759935071101454,,,False,,,,
+3-Cl-AHPC,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,0.0,3.0,-11.015171265398198,,,False,,,,
+BMS-509744,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,1.0,3.0,-10.917578562089313,,,False,,,,2.0
+OSI-027,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,5.0,2.0,3.0,-10.917435338280525,,,False,,,,9.0
+PLX-4720,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,4.0,1.0,3.0,-10.178701254927288,,,False,,,,10.0
+tenovins,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-10.89199878983958,,,False,,,,
+diphenyleneiodonium,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,0.0,3.0,-11.40390932721354,,,False,,,,9.0
+lomitapide,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-11.833237016439709,,,False,,,,5.0
+BRD-K10211010,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-11.332125554248448,,,False,,,,
+SCH-79797,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,0.0,3.0,-11.962797273870317,,,False,,,,1.0
+BRD-K32581454,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-10.115382009061632,,,False,,,,
+vortioxetine,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,1.0,3.0,-9.249393571599292,,,False,,,,
+torin-2,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,9.0,0.0,3.0,-10.898615729805638,,,False,,,,7.0
+mevastatin,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,4.0,0.0,3.0,-10.803214350771226,,,False,,,,4.0
+tubacin,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,0.0,3.0,-10.28275335201256,,,False,,,,1.0
+etravirine,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-12.070616157126745,,,False,,,,5.0
+BRD-K72318460,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-12.07038699903268,,,False,,,,
+nortriptyline,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-10.101460654847331,,,False,,,,36.0
+BRD-K52981369,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,3.0,-10.727749725920257,,,False,,,,
+BRD-A28105619,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,7.0,1.0,3.0,-12.547723308964953,,,False,,,,
+ivermectin,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,4.0,0.0,3.0,-11.6787558162798,,,False,,,,3.0
+BRD-K86961442,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,3.0,-11.253352459414453,,,False,,,,
+dichlorobenzamil,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-11.475263428752262,,,False,,,,
+BRD-K49010888,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-9.789232751687122,,,False,,,,
+CX-5461,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,9.0,1.0,3.0,-12.245177335278884,,,False,,,,1.0
+voxtalisib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,4.0,1.0,3.0,-10.40535293233602,,,False,,,,16.0
+cerulenin,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,1.0,3.0,-11.010588103516946,,,False,,,,1.0
+BRD-K59333713,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-9.897882333034524,,,False,,,,
+fluspirilene,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-11.715965361803203,,,False,,,,22.0
+BIIB-021,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,7.0,1.0,3.0,-11.495629854362072,,,False,,,,4.0
+menadione,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,1.0,3.0,-11.723412999860235,,,False,,,,
+gossypol,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,4.0,1.0,3.0,-9.65720904474534,,,False,,,,48.0
+selamectin,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-12.063426321925531,,,False,,,,
+amiodarone,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-10.129647100417024,,,False,,,,26.0
+atorvastatin,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,3.0,-11.455068871713,,,False,,,,
+CAM-9-027-3,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,1.0,3.0,-9.358644692943606,,,False,,,,
+latrunculin-b,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,3.0,-9.876499018382312,,,False,,,,
+CHEMBL-374350,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,3.0,-10.175593298276564,,,False,,,,
+nifedipine,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-9.049281265959175,,,False,,,,56.0
+bazedoxifene,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,4.0,0.0,3.0,-10.48343855288783,,,False,,,,6.0
+ingenol-mebutate,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,10.0,0.0,3.0,-11.217718375787726,,,False,,,,16.0
+BRD-K87125912,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-10.92038574874158,,,False,,,,
+YM-201636,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-10.279573783457442,,,False,,,,
+perphenazine,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,2.0,-11.470680266871012,,,False,,,,26.0
+AZD-8330,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,10.0,1.0,2.0,-11.205300871565711,,,False,,,,2.0
+BRD-K68202742,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,1.0,2.0,-10.074004650702465,,,False,,,,
+alvespimycin,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,5.0,2.0,2.0,-11.033131531020349,,,False,,,,4.0
+BRD-K41335306,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,2.0,-11.061317976590042,,,False,,,,
+NPC26,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-12.676080486401732,,,False,,,,
+BRD-K47000838,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-10.338725216487337,,,False,,,,
+raloxifene,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,5.0,1.0,2.0,-10.94765556193502,,,False,,,,50.0
+colchicine,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,11.0,5.0,2.0,-11.155616532296776,,,False,,,,52.0
+carvedilol,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,2.0,-12.001038030817003,,,False,,,,26.0
+flumatinib,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,0.0,2.0,-10.158349151698358,,,False,,,,2.0
+Merck60,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-9.8690370579444,,,False,,,,
+ixabepilone,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,2.0,-9.751650824260864,,,False,,,,22.0
+BRD-K63423329,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,2.0,-10.6838516285264,,,False,,,,
+PD-407824,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-10.935223735332128,,,False,,,,
+NNC-55-0396,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,1.0,2.0,-11.317745883846024,,,False,,,,4.0
+CGS-15943,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,6.0,0.0,2.0,-10.30833312426229,,,False,,,,11.0
+paroxetine,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,4.0,0.0,2.0,-10.37080734965609,,,False,,,,1.0
+BRD-K01737880,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,1.0,2.0,-11.702215876159451,,,False,,,,
+BRD-K20109053,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-9.35048093584263,,,False,,,,
+radicicol,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,9.0,3.0,2.0,-10.624428070259809,,,False,,,,3.0
+kinetin-riboside,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,0.0,2.0,-11.65773056114956,,,False,,,,4.0
+benzylpenicillin,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,2.0,-10.283899142482872,,,False,,,,
+A-23187,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,2.0,-11.251590806566345,,,False,,,,
+BRD-K74316684,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,1.0,2.0,-11.748906837824691,,,False,,,,
+acivicin,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,1.0,2.0,-11.193570841625885,,,False,,,,4.0
+BRD-K99999497,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-11.210098869160143,,,False,,,,
+BRD-K04065047,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-9.044468945983864,,,False,,,,
+BRD-K93830491,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,2.0,-11.712971984199513,,,False,,,,
+mibefradil,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,1.0,2.0,-11.568158391132863,,,False,,,,17.0
+belinostat,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,3.0,1.0,2.0,-10.395928805717697,,,False,,,,22.0
+doconexent,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,7.0,2.0,2.0,-11.45037113078472,,,False,,,,8.0
+JNJ-26481585,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-11.6375360041103,,,False,,,,
+cediranib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,3.0,0.0,2.0,-10.530788344073502,,,False,,,,55.0
+cabazitaxel,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,5.0,0.0,2.0,-9.595107201254391,,,False,,,,22.0
+BRD-K18710049,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,2.0,-11.808115560378102,,,False,,,,
+STA-5326,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,0.0,2.0,-11.712155608489416,,,False,,,,
+BRD-K61195623,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,2.0,1.0,-11.62032050229385,,,False,,,,
+BRD-K97972722,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,1.0,-10.454793791130012,,,False,,,,
+AZD-8931,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,1.0,-10.731387610663498,,,False,,,,
+BRD-K55896799,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,1.0,-12.015517957885582,,,False,,,,
+clomifene,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,1.0,-10.083213941607603,,,False,,,,
+17-AAG,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,11.0,1.0,1.0,-10.335144621267608,,,False,,,,
+BAY-87-2243,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,1.0,-10.285732407235372,,,False,,,,
+BRD-K47869605,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,0.0,1.0,-11.361071086004722,,,False,,,,
+BRD-K67548518,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,4.0,0.0,1.0,-10.712496390284215,,,False,,,,
+BRD-K91041732,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,0.0,1.0,-10.494910779971836,,,False,,,,
+deforolimus,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,5.0,0.0,1.0,-10.322483636570652,,,False,,,,
+brequinar,2b: reversal (<10 cell lines),2,reversal:2,investigational / not annotated,False,False,3.0,0.0,1.0,-10.283755918674084,,,False,,,,1.0
+fulvestrant,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),True,True,37.0,10.0,1.0,-11.862855700097292,,,False,,,,24.0
+WHI-P154,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,3.0,0.0,1.0,-12.650328845581456,,,False,,,,
+LY-2835219,2b: reversal (<10 cell lines),2,reversal:2,not found in DGIdb,False,False,6.0,0.0,1.0,-10.757024672436746,,,False,,,,
+ganetespib,2b: reversal (<10 cell lines),2,reversal:2,anti-cancer (cytotoxic/targeted),False,True,8.0,0.0,1.0,-11.229233570014369,,,False,,,,8.0
+floxuridine,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,anti-cancer (cytotoxic/targeted),True,True,4.0,7.0,2.0,-9.721072541084393,TYMS,TYMS,False,,,,14.0
+raltitrexed,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,anti-cancer (cytotoxic/targeted),True,True,1.0,3.0,1.0,-10.251158179793688,TYMS,TYMS,False,,,,8.0
+pemetrexed,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,anti-cancer (cytotoxic/targeted),True,True,1.0,11.0,1.0,-10.21581054378454,TYMS,TYMS,False,,,,25.0
+DOXIFLURIDINE,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,investigational / not annotated,False,False,,,,,TYMP;TYMS,TYMS,False,,,,4.0
+NOLATREXED,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,investigational / not annotated,False,False,,,,,TYMS,TYMS,False,,,,2.0
+AMILORIDE,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,anti-cancer (cytotoxic/targeted),True,True,,,,,CD38,CD38,False,,,,17.0
+CYTARABINE,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,anti-cancer (cytotoxic/targeted),True,True,,,,,NT5C3A;POLE2;RRM2;TYMS,TYMS,False,,,,83.0
+HUMAX-IL15,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,investigational / not annotated,False,False,,,,,CD38,CD38,False,,,,1.0
+FELZARTAMAB,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,investigational / not annotated,False,False,,,,,CD38,CD38,False,,,,1.0
+CAPECITABINE,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,anti-cancer (cytotoxic/targeted),True,True,,,,,TYMS,TYMS,False,,,,54.0
+RITUXIMAB,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,anti-cancer (cytotoxic/targeted),True,True,,,,,CD38,CD38,False,,,,45.0
+ISATUXIMAB,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,"approved, non-oncology",True,False,,,,,CD38,CD38,False,,,,2.0
+OSI-7904,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,investigational / not annotated,False,False,,,,,TYMS,TYMS,False,,,,1.0
+URACIL,"3: enzyme-targeting, reversal not shown",3,metabolic_target:3,anti-cancer (cytotoxic/targeted),True,True,,,,,TYMS,TYMS,False,,,,12.0
+gemcitabine,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,anti-cancer (cytotoxic/targeted),True,True,3.0,4.0,3.0,-12.576282136437497,POLE2;RRM2,,False,,,,93.0
+axitinib,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,anti-cancer (cytotoxic/targeted),True,True,4.0,5.0,2.0,-11.70658420232752,FABP5,,False,,,,22.0
+clofarabine,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,anti-cancer (cytotoxic/targeted),True,True,2.0,3.0,1.0,-9.783947793142804,POLE2;RRM2,,False,,,,19.0
+FLUDARABINE,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,anti-cancer (cytotoxic/targeted),True,True,,,,,ADA;POLE2;RRM2,,False,,,,34.0
+COMPOUND R-16 [PMID: 21967808],"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,DTYMK,,False,,,,5.0
+ROCK INHIBITOR 3,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,2.0
+HSD1590,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,2.0
+OLECLUMAB,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,NT5E,,False,,,,2.0
+"COMPOUND 6LI [CHAN ET AL., 2022]","3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,DTYMK,,False,,,,4.0
+RIPASUDIL,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,5.0
+GSK429286A,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,2.0
+TROXACITABINE,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,POLE2,,False,,,,12.0
+ASPACYTARABINE,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,POLE2,,False,,,,11.0
+Y27632,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,7.0
+GALLIUM NITRATE,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,"approved, non-oncology",True,False,,,,,RRM2,,False,,,,7.0
+CORTISTATIN A,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,4.0
+RKI-1447,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,8.0
+COMPOUND 35 [PMID: 20684608],"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,4.0
+SAR407899,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,4.0
+COMPOUND 8 [PMID: 25898023],"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,2.0
+COMPOUND 33 [PMID: 19364658],"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,5.0
+FASUDIL,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,anti-cancer (cytotoxic/targeted),False,True,,,,,CTPS1,,False,,,,32.0
+VEROSUDIL,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,4.0
+MERESTINIB,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,DTYMK,,False,,,,10.0
+GSK269962A,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,48.0
+RG-1530,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,FABP5,,False,,,,94.0
+NETARSUDIL,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,"approved, non-oncology",True,False,,,,,CTPS1,,False,,,,4.0
+HYDROXYUREA,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,anti-cancer (cytotoxic/targeted),True,True,,,,,RRM2,,False,,,,21.0
+MOTEXAFIN GADOLINIUM,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,RRM2,,False,,,,7.0
+XMD8-92,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,FABP5,,False,,,,4.0
+OCIFISERTIB,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,FABP5,,False,,,,1.0
+BELUMOSUDIL,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,"approved, non-oncology",True,False,,,,,CTPS1,,False,,,,12.0
+TIPIRACIL HYDROCHLORIDE,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,"approved, non-oncology",True,False,,,,,TYMP,,False,,,,2.0
+TRIAPINE,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,anti-cancer (cytotoxic/targeted),False,True,,,,,RRM2,,False,,,,4.0
+BIIB091,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,DTYMK,,False,,,,3.0
+COMPOUND 22 [PMID: 20462760],"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,4.0
+PENTOSTATIN,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,anti-cancer (cytotoxic/targeted),True,True,,,,,ADA,,False,,,,3.0
+CZS-241,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,FABP5,,False,,,,2.0
+COMPOUND E22 [PMID: 31298542],"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,CTPS1,,False,,,,6.0
+COFORMYCIN,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,ADA,,False,,,,1.0
+TEZACITABINE,"3: enzyme-targeting, reversal not shown",2,metabolic_target:2,investigational / not annotated,False,False,,,,,RRM2,,False,,,,4.0
+ciprofibrate,"4: client list, no reversal",3,"client_signature:1,client_proximity:1,client_safety:1","approved, non-oncology",True,False,,,,,,,True,-1.239,-3.73125367377232,0.0,4.0
+flupirtine,"4: client list, no reversal",3,"client_signature:1,client_proximity:1,client_safety:1",investigational / not annotated,False,False,,,,,,,True,-1.4877,-2.91252638628691,0.0,28.0
+mephentermine,"4: client list, no reversal",3,"client_signature:1,client_proximity:1,client_safety:1","approved, non-oncology",True,False,,,,,,,True,-1.9137,-2.63814084728176,0.0,10.0
+bromhexine,"4: client list, no reversal",3,"client_signature:1,client_proximity:1,client_safety:1","approved, non-oncology",True,False,,,,,,,True,-1.7705,-2.63955267069422,0.0,1.0
+nicergoline,"4: client list, no reversal",3,"client_signature:1,client_proximity:1,client_safety:1",investigational / not annotated,False,False,,,,,,,True,-1.5503,-3.01628568219027,0.0,2.0
+oxybenzone,"4: client list, no reversal",3,"client_signature:1,client_proximity:1,client_safety:1","approved, non-oncology",True,False,,,,,,,True,-1.6465,-2.29510052895891,0.0,4.0
+naftidrofuryl,"4: client list, no reversal",3,"client_signature:1,client_proximity:1,client_safety:1",investigational / not annotated,False,False,,,,,,,True,-1.3522,-2.56229952163983,0.0,1.0
+colforsin,"4: client list, no reversal",3,"client_signature:1,client_proximity:1,client_safety:1",investigational / not annotated,False,False,,,,,,,True,-2.0077,-6.23110767023701,0.0,8.0
+dexamethasone,"4: client list, no reversal",2,"client_signature:1,client_safety:1",anti-cancer (cytotoxic/targeted),True,True,1.0,13.0,1.0,-10.397504267614377,,,True,-1.6973,-1.86188305845038,0.0,87.0
+ciclacillin,"4: client list, no reversal",2,"client_signature:1,client_proximity:1","approved, non-oncology",True,False,,,,,,,True,-1.5577,-2.91642591486451,3.0,0.0
+zoxazolamine,"4: client list, no reversal",2,"client_signature:1,client_safety:1",investigational / not annotated,False,False,,,,,,,True,-1.3918,-1.88210143777983,0.0,5.0
+lenalidomide,"4: client list, no reversal",2,"client_signature:1,client_proximity:1",anti-cancer (cytotoxic/targeted),True,True,,,,,,,True,-1.3414,-2.17356182328209,10.0,13.0
+benzbromarone,"4: client list, no reversal",2,"client_proximity:1,client_safety:1","approved, non-oncology",True,False,,,,,,,True,-1.4439,-3.36784598401212,0.0,16.0
+anastrozole,"4: client list, no reversal",2,"client_signature:1,client_proximity:1",anti-cancer (cytotoxic/targeted),True,True,,,,,,,True,-1.782,-2.40141663893467,5.0,13.0

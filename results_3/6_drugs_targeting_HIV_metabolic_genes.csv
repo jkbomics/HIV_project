@@ -1,0 +1,198 @@
+drug,genes,n_genes,n_consistent_genes,interaction_types,tier_A_genes,n_sources,n_signatures,n_reversing,n_mimicking,n_cell_lines_reversing,median_z_up_reversers,reverser_flag,in_SigCom_hits,supported_both
+FLUOROURACIL,DTYMK;TYMP;TYMS,3,1,inhibitor,TYMS,5,8.0,8.0,0.0,3.0,-12.287457003633422,True,True,True
+GEMCITABINE,POLE2;RRM2,2,2,inhibitor,,3,7.0,3.0,4.0,3.0,-12.576282136437497,False,True,False
+CLOFARABINE,POLE2;RRM2,2,2,inhibitor,,1,5.0,2.0,3.0,1.0,-9.783947793142804,False,True,False
+FLUDARABINE,ADA;POLE2;RRM2,3,2,inhibitor,,2,,,,,,False,False,False
+AXITINIB,FABP5,1,1,inhibitor,,1,9.0,4.0,5.0,2.0,-11.70658420232752,False,True,False
+FLOXURIDINE,TYMS,1,1,inhibitor,TYMS,4,11.0,4.0,7.0,2.0,-9.721072541084393,False,True,False
+PEMETREXED DISODIUM,TYMS,1,1,inhibitor,TYMS,6,12.0,1.0,11.0,1.0,-10.21581054378454,False,True,False
+RALTITREXED,TYMS,1,1,inhibitor,TYMS,4,4.0,1.0,3.0,1.0,-10.251158179793688,False,True,False
+AMILORIDE,CD38,1,1,inhibitor,CD38,1,,,,,,False,False,False
+ASPACYTARABINE,POLE2,1,1,inhibitor,,1,,,,,,False,False,False
+BELUMOSUDIL,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+BIIB091,DTYMK,1,1,inhibitor,,1,,,,,,False,False,False
+CAPECITABINE,TYMS,1,1,inhibitor,TYMS,3,,,,,,False,False,False
+COFORMYCIN,ADA,1,1,inhibitor,,1,,,,,,False,False,False
+COMPOUND 22 [PMID: 20462760],CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+COMPOUND 33 [PMID: 19364658],CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+COMPOUND 35 [PMID: 20684608],CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+"COMPOUND 6LI [CHAN ET AL., 2022]",DTYMK,1,1,inhibitor,,1,,,,,,False,False,False
+COMPOUND 8 [PMID: 25898023],CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+COMPOUND E22 [PMID: 31298542],CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+COMPOUND R-16 [PMID: 21967808],DTYMK,1,1,inhibitor,,1,,,,,,False,False,False
+CORTISTATIN A,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+CYTARABINE,NT5C3A;POLE2;RRM2;TYMS,4,1,inhibitor,TYMS,2,,,,,,False,False,False
+CZS-241,FABP5,1,1,inhibitor,,1,,,,,,False,False,False
+DOXIFLURIDINE,TYMP;TYMS,2,1,inhibitor,TYMS,2,,,,,,False,False,False
+FASUDIL,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+FELZARTAMAB,CD38,1,1,inhibitor,CD38,2,,,,,,False,False,False
+GALLIUM NITRATE,RRM2,1,1,inhibitor,,1,,,,,,False,False,False
+GSK269962A,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+GSK429286A,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+HSD1590,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+HUMAX-IL15,CD38,1,1,inhibitor,CD38,1,,,,,,False,False,False
+HYDROXYUREA,RRM2,1,1,inhibitor,,2,,,,,,False,False,False
+ISATUXIMAB,CD38,1,1,inhibitor,CD38,4,,,,,,False,False,False
+MERESTINIB,DTYMK,1,1,inhibitor,,1,,,,,,False,False,False
+MOTEXAFIN GADOLINIUM,RRM2,1,1,inhibitor,,2,,,,,,False,False,False
+NETARSUDIL,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+NOLATREXED,TYMS,1,1,inhibitor,TYMS,1,,,,,,False,False,False
+OCIFISERTIB,FABP5,1,1,inhibitor,,1,,,,,,False,False,False
+OLECLUMAB,NT5E,1,1,inhibitor,,2,,,,,,False,False,False
+OSI-7904,TYMS,1,1,inhibitor,TYMS,1,,,,,,False,False,False
+PENTOSTATIN,ADA,1,1,inhibitor,,4,,,,,,False,False,False
+RG-1530,FABP5,1,1,inhibitor,,1,,,,,,False,False,False
+RIPASUDIL,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+RITUXIMAB,CD38,1,1,inhibitor,CD38,3,,,,,,False,False,False
+RKI-1447,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+ROCK INHIBITOR 3,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+SAR407899,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+TEZACITABINE,RRM2,1,1,inhibitor,,1,,,,,,False,False,False
+TIPIRACIL HYDROCHLORIDE,TYMP,1,1,inhibitor,,1,,,,,,False,False,False
+TRIAPINE,RRM2,1,1,inhibitor,,3,,,,,,False,False,False
+TROXACITABINE,POLE2,1,1,inhibitor,,1,,,,,,False,False,False
+URACIL,TYMS,1,1,inhibitor,TYMS,2,,,,,,False,False,False
+VEROSUDIL,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+XMD8-92,FABP5,1,1,inhibitor,,1,,,,,,False,False,False
+Y27632,CTPS1,1,1,inhibitor,,1,,,,,,False,False,False
+DOXORUBICIN HYDROCHLORIDE,NT5E,1,0,,,1,52.0,40.0,12.0,7.0,-11.65562517116036,True,True,False
+IDARUBICIN,NT5C3A,1,0,,,1,46.0,27.0,19.0,16.0,-11.197294660654402,False,True,False
+ETOPOSIDE,TYMS,1,0,,TYMS,1,24.0,20.0,4.0,8.0,-11.40887919337852,True,True,False
+TOPOTECAN HYDROCHLORIDE,TYMS,1,0,,TYMS,1,26.0,20.0,6.0,4.0,-11.929125356424002,True,True,False
+MK-2206,UBE2T,1,0,,,1,19.0,15.0,4.0,13.0,-10.550782387780458,True,True,False
+IRINOTECAN HYDROCHLORIDE,TYMS,1,0,,TYMS,2,16.0,12.0,4.0,5.0,-11.45929397407228,True,True,False
+COLCHICINE,SCD,1,0,,SCD,1,16.0,11.0,5.0,2.0,-11.155616532296776,True,True,False
+AFATINIB,UHRF1,1,0,,,1,27.0,8.0,19.0,6.0,-10.112732368599032,False,True,False
+TAMOXIFEN,TYMS,1,0,,TYMS,1,10.0,8.0,2.0,4.0,-11.132815301937557,True,True,False
+ERLOTINIB,UHRF1,1,0,,,1,14.0,7.0,7.0,5.0,-10.627378480720862,False,True,False
+AZACITIDINE,TYMS,1,0,,TYMS,1,7.0,5.0,2.0,3.0,-11.781561866228603,True,True,False
+PROGESTERONE,NME2,1,0,,,1,6.0,3.0,3.0,3.0,-11.439944437504874,False,True,False
+SORAFENIB,SLC22A1,1,0,,,1,7.0,3.0,4.0,3.0,-11.2705679612309,False,True,False
+AMITRIPTYLINE HYDROCHLORIDE,ADA,1,0,,,1,4.0,1.0,3.0,1.0,-12.503925468237249,False,True,False
+CAPSAICIN,NT5E,1,0,,,1,5.0,1.0,4.0,1.0,-9.57491264421513,False,True,False
+CLOZAPINE,NT5E,1,0,,,1,14.0,1.0,13.0,1.0,-9.698973107388236,False,True,False
+DEXAMETHASONE,TYMS,1,0,,TYMS,1,14.0,1.0,13.0,1.0,-10.397504267614377,False,True,False
+ISRADIPINE,SLC25A20,1,0,,,1,5.0,1.0,4.0,1.0,-9.761504622305551,False,True,False
+OLANZAPINE,SLC22A1,1,0,,,1,4.0,1.0,3.0,1.0,-10.765417587631786,False,True,False
+ROSIGLITAZONE,SCD,1,0,,SCD,1,3.0,1.0,2.0,1.0,-9.306740384638442,False,True,False
+VINCRISTINE,TYMS,1,0,,TYMS,1,3.0,1.0,2.0,1.0,-11.78766320048302,False,True,False
+9-AMINOCAMPTOTHECIN,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+ADEFOVIR DIPIVOXIL,NME1;NME2,2,0,,,1,,,,,,False,False,False
+AMANTADINE HYDROCHLORIDE,SLC22A1,1,0,,,1,,,,,,False,False,False
+AMINOCAMPTOTHECIN,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+ANTI-CD38 CAR T CELLS PREPARATION,CD38,1,0,,CD38,1,,,,,,False,False,False
+ANTICONVULSANT AGENT,NT5E,1,0,,,1,,,,,,False,False,False
+ANTIMALARIAL AGENT,ADA,1,0,,,1,,,,,,False,False,False
+ARAMCHOL,SCD,1,0,,SCD,1,,,,,,False,False,False
+ARFOLITIXORIN,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+ARGININE BUTYRATE,TK1,1,0,,TK1,1,,,,,,False,False,False
+ARVERAPAMIL,SLC25A20,1,0,,,1,,,,,,False,False,False
+ASPARAGINASE,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+ASPIRIN,ADA,1,0,,,2,,,,,,False,False,False
+AZATHIOPRINE,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+BEPRIDIL,SLC25A20,1,0,,,1,,,,,,False,False,False
+BUDIODARONE,SLC25A20,1,0,,,1,,,,,,False,False,False
+C5A,NT5E,1,0,,,1,,,,,,False,False,False
+CARBOGEN,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+CETUXIMAB,NT5E,1,0,,,1,,,,,,False,False,False
+CISPLATIN,SLC22A1;TYMS,2,0,,TYMS,2,,,,,,False,False,False
+CLADRIBINE,ADA;RRM2,2,0,,,2,,,,,,False,False,False
+CLEVIDIPINE,SLC25A20,1,0,,,1,,,,,,False,False,False
+CLOFIBRATE,SCD,1,0,,SCD,1,,,,,,False,False,False
+COBALT,ADA,1,0,,,1,,,,,,False,False,False
+CORDYCEPIN,ADA,1,0,,,1,,,,,,False,False,False
+CYCLOGUANIL,SLC22A1,1,0,,,1,,,,,,False,False,False
+CYCLOPENTENYL CYTOSINE,CTPS1,1,0,,,1,,,,,,False,False,False
+DAUNORUBICIN LIPOSOMAL,TYMS,1,0,,TYMS,2,,,,,,False,False,False
+DEHYDRATED ALCOHOL,DTYMK;SLC4A8,2,0,,SLC4A8,2,,,,,,False,False,False
+DEOXYCYTIDINE,TK1,1,0,,TK1,1,,,,,,False,False,False
+DEOXYURIDINE MONOPHOSPHATE,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+DESMETRAMADOL,SLC22A1,1,0,,,1,,,,,,False,False,False
+DIAZOXIDE,NT5E,1,0,,,1,,,,,,False,False,False
+DIDEOXYADENOSINE,ADA,1,0,,,1,,,,,,False,False,False
+DIFFERENTIATION INDUCER,ADA,1,0,,,1,,,,,,False,False,False
+DIPROTEVERINE,SLC25A20,1,0,,,1,,,,,,False,False,False
+DRUGSATFDA.NDA:008378,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+DUTPASE/DPD INHIBITOR TAS-114,DUT,1,0,,,1,,,,,,False,False,False
+ELAPEGADEMASE,ADA,1,0,,,1,,,,,,False,False,False
+ELAPEGADEMASE-LVLR,ADA,1,0,,,1,,,,,,False,False,False
+ELPETRIGINE,SLC25A20,1,0,,,1,,,,,,False,False,False
+ELTROMBOPAG,SLC22A1,1,0,,,1,,,,,,False,False,False
+ENILURACIL,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+EPOETIN ALFA,NT5E,1,0,,,1,,,,,,False,False,False
+FELODIPINE,SLC25A20,1,0,,,1,,,,,,False,False,False
+FENOTEROL,SLC22A1,1,0,,,1,,,,,,False,False,False
+FOLATE ANTAGONIST,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+FOLIC ACID,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+GAMMA-INTERFERON,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+GARLIC,ADA,1,0,,,1,,,,,,False,False,False
+GEFITINIB,UHRF1,1,0,,,1,,,,,,False,False,False
+GEMCITABINE ELAIDATE,RRM2,1,0,,,1,,,,,,False,False,False
+GLUTAMINE,SLC38A3,1,0,,SLC38A3,1,,,,,,False,False,False
+H2O2,ADA,1,0,,,1,,,,,,False,False,False
+HALOPERIDOL DECANOATE,NT5E,1,0,,,1,,,,,,False,False,False
+HEPARIN,SDC1,1,0,,,1,,,,,,False,False,False
+HYDROCORTISONE BUTYRATE,ADA;TYMS,2,0,,TYMS,1,,,,,,False,False,False
+HYDROXYCHLOROQUINE,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+IDETREXED,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+IMMUNOTHERAPEUTIC AGENT,NT5E,1,0,,,1,,,,,,False,False,False
+INDATUXIMAB RAVTANSINE,SDC1,1,0,binder,,2,,,,,,False,False,False
+INDOMETHACIN,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+INOSITOL,NT5E,1,0,,,1,,,,,,False,False,False
+LAMIVUDINE,NME1;NME2,2,0,,,1,,,,,,False,False,False
+LEUCOVORIN CALCIUM,TYMS,1,0,,TYMS,2,,,,,,False,False,False
+LEVOCARNITINE PROPIONATE,SLC22A4;SLC25A20,2,0,,,1,,,,,,False,False,False
+LEVODOPA,ADA;SLC22A1,2,0,,,2,,,,,,False,False,False
+LOVASTATIN,NT5E,1,0,,,1,,,,,,False,False,False
+LY-2334737,RRM2,1,0,,,1,,,,,,False,False,False
+LYCOPENE,NME1,1,0,,,1,,,,,,False,False,False
+MERCAPTOPURINE,SLC22A1,1,0,,,1,,,,,,False,False,False
+METHOTREXATE,ADA;TYMS,2,0,,TYMS,2,,,,,,False,False,False
+METHYLMERCAPTOPURINE RIBOSIDE,ADA,1,0,,,1,,,,,,False,False,False
+MEZAGITAMAB,CD38,1,0,binder,CD38,1,,,,,,False,False,False
+MITOMYCIN,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+MK-8245,SCD,1,0,,SCD,1,,,,,,False,False,False
+MPA,TYMP,1,0,,,1,,,,,,False,False,False
+MUPADOLIMAB,NT5E,1,0,,,1,,,,,,False,False,False
+NEXOPAMIL,SLC25A20,1,0,,,1,,,,,,False,False,False
+NICARDIPINE,SLC25A20,1,0,,,1,,,,,,False,False,False
+NIMODIPINE,SLC25A20,1,0,,,1,,,,,,False,False,False
+NISOLDIPINE,SLC25A20,1,0,,,1,,,,,,False,False,False
+OSI-7904L,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+PENCICLOVIR,TK1,1,0,,TK1,1,,,,,,False,False,False
+PHENTOLAMINE,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+PLATINUM,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+PREDNISONE,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+RANITIDINE HYDROCHLORIDE,SLC22A1,1,0,,,1,,,,,,False,False,False
+RASAGILINE,SLC22A1,1,0,,,1,,,,,,False,False,False
+RECOMBINANT INTERFERON,NT5E,1,0,,,1,,,,,,False,False,False
+RECOMBINANT INTERLEUKIN,ADA,1,0,,,1,,,,,,False,False,False
+RECOMBINANT PROTHYMOSIN ALPHA,ADA,1,0,,,1,,,,,,False,False,False
+RESERPINE,NT5E;TYMS,2,0,,TYMS,1,,,,,,False,False,False
+RILAPLADIB,TK1,1,0,,TK1,1,,,,,,False,False,False
+RISPERIDONE,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+SELEGILINE,SLC22A1,1,0,,,1,,,,,,False,False,False
+SELENIUM,ADA,1,0,,,1,,,,,,False,False,False
+STAVUDINE,DTYMK,1,0,,,1,,,,,,False,False,False
+SULCARDINE SULFATE,SLC25A20,1,0,,,1,,,,,,False,False,False
+SULFASALAZINE,NT5E;TYMP;TYMS,3,0,,TYMS,2,,,,,,False,False,False
+SUMATRIPTAN,SLC22A1,1,0,,,1,,,,,,False,False,False
+TEGAFUR-GIMERACIL-OTERACIL POTASSIUM,TYMP,1,0,,,1,,,,,,False,False,False
+TENOFOVIR,NME1;NME2,2,0,,,1,,,,,,False,False,False
+TETRAMETHYLAMMONIUM,SLC22A1,1,0,,,1,,,,,,False,False,False
+TETRANDRINE,SLC25A20,1,0,,,1,,,,,,False,False,False
+THROMBIN,CD38,1,0,,CD38,1,,,,,,False,False,False
+THYMIDINE MONOPHOSPHATE,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+TILARGININE,ADA,1,0,,,1,,,,,,False,False,False
+TINIDAZOLE,NT5E,1,0,,,1,,,,,,False,False,False
+TIOCARLIDE,SCD,1,0,,SCD,1,,,,,,False,False,False
+TL6,TYMP,1,0,,,1,,,,,,False,False,False
+TRANSFERRIN RECEPTOR-TARGETED ANTI-RRM2 SIRNA CALAA-01,RRM2,1,0,,,1,,,,,,False,False,False
+TROPISETRON,SLC22A1,1,0,,,1,,,,,,False,False,False
+URIDINE,TYMP,1,0,,,1,,,,,,False,False,False
+USTEKINUMAB,SLC22A4,1,0,,,1,,,,,,False,False,False
+VALNIVUDINE HYDROCHLORIDE,TK1,1,0,,TK1,1,,,,,,False,False,False
+VERAPAMIL,TYMS,1,0,,TYMS,1,,,,,,False,False,False
+VESNARINONE,NT5E,1,0,,,1,,,,,,False,False,False
+VITAMIN A,SCD,1,0,,SCD,1,,,,,,False,False,False
+ZIDOVUDINE,DTYMK;NME1;NME2;TK1,4,0,,TK1,1,,,,,,False,False,False

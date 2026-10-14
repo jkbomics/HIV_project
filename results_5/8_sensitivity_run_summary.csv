@@ -1,0 +1,5 @@
+run,n_reversers,n_shared_with_baseline,pct_of_baseline_reversers_retained,n_new_reversers_not_in_baseline
+baseline,268,268,100.0,0
+noIG,269,234,87.3,35
+noProlif,288,214,79.9,74
+noIG_noProlif,277,194,72.4,83

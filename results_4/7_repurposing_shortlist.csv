@@ -1,0 +1,21 @@
+drug,tier,evidence_points,evidence_detail,drug_class,approved,anti_neoplastic,sigcom_n_reversing,sigcom_n_mimicking,sigcom_cell_lines_reversing,sigcom_median_z_up,metabolic_target_genes,metabolic_target_tierA,client_list,client_nes,client_proximity_z,client_contraindications,n_known_targets
+pyrvinium-pamoate,2: strong reversal only,3,reversal:3,"approved, non-oncology",True,False,20.0,0.0,12.0,-11.277958309764417,,,False,,,,1.0
+pitavastatin,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,16.0,1.0,6.0,-11.100933682101102,,,False,,,,6.0
+hexachlorophene,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,5.0,0.0,4.0,-11.595800586229158,,,False,,,,41.0
+sertraline,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,11.0,0.0,4.0,-11.228116424305814,,,False,,,,20.0
+niclosamide,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,11.0,1.0,4.0,-10.815431341660934,,,False,,,,27.0
+etravirine,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-12.070616157126745,,,False,,,,5.0
+lomitapide,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-11.833237016439709,,,False,,,,5.0
+fluspirilene,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-11.715965361803203,,,False,,,,22.0
+ivermectin,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,4.0,0.0,3.0,-11.6787558162798,,,False,,,,3.0
+ingenol-mebutate,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,10.0,0.0,3.0,-11.217718375787726,,,False,,,,16.0
+bazedoxifene,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,4.0,0.0,3.0,-10.48343855288783,,,False,,,,6.0
+amiodarone,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-10.129647100417024,,,False,,,,26.0
+nortriptyline,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-10.101460654847331,,,False,,,,36.0
+nifedipine,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,3.0,-9.049281265959175,,,False,,,,56.0
+carvedilol,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,2.0,-12.001038030817003,,,False,,,,26.0
+perphenazine,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,2.0,-11.470680266871012,,,False,,,,26.0
+doconexent,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,7.0,2.0,2.0,-11.45037113078472,,,False,,,,8.0
+colchicine,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,11.0,5.0,2.0,-11.155616532296776,,,False,,,,52.0
+raloxifene,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,5.0,1.0,2.0,-10.94765556193502,,,False,,,,50.0
+ixabepilone,2b: reversal (<10 cell lines),2,reversal:2,"approved, non-oncology",True,False,3.0,0.0,2.0,-9.751650824260864,,,False,,,,22.0

@@ -17,6 +17,7 @@ If the database name is rejected, list the valid ones with:
 """
 import argparse
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -75,10 +76,39 @@ def entrez_to_symbol(ids, outdir):
     return pd.Series(list(ids)).map(m).values
 
 
-def build_signature(d, n_up, n_down, outdir):
+# Core proliferation genes (Tirosh et al. 2016 S-phase and G2/M sets) for the sensitivity analysis
+S_PHASE = ("MCM5 PCNA TYMS FEN1 MCM2 MCM4 RRM1 UNG GINS2 MCM6 CDCA7 DTL PRIM1 UHRF1 CENPU HELLS RFC2 RPA2 NASP "
+           "RAD51AP1 GMNN WDR76 SLBP CCNE2 UBR7 POLD3 MSH2 ATAD2 RAD51 RRM2 CDC45 CDC6 EXO1 TIPIN DSCC1 BLM "
+           "CASP8AP2 USP1 CLSPN POLA1 CHAF1B BRIP1 E2F8").split()
+G2M = ("HMGB2 CDK1 NUSAP1 UBE2C BIRC5 TPX2 TOP2A NDC80 CKS2 NUF2 CKS1B MKI67 TMPO CENPF TACC3 PIMREG SMC4 CCNB2 "
+       "CKAP2L CKAP2 AURKB BUB1 KIF11 ANP32E TUBB4B GTSE1 KIF20B HJURP CDCA3 JPT1 CDC20 TTK CDC25C KIF2C RANGAP1 "
+       "NCAPD2 DLGAP5 CDCA2 CDCA8 ECT2 KIF23 HMMR AURKA PSRC1 ANLN LBR CKAP5 CENPE CTCF NEK2 G2E3 GAS2L3 CBX5 "
+       "CENPA").split()
+IG_PATTERN = r"^IG[HKL][VDJC]"
+
+
+def genes_to_exclude(symbols, exclude_ig, exclude_prolif, exclude_file):
+    ex = set()
+    if exclude_ig:
+        ex |= {s for s in symbols if re.match(IG_PATTERN, str(s))}
+    if exclude_prolif:
+        ex |= set(S_PHASE) | set(G2M)
+    if exclude_file:
+        ex |= {x.strip() for x in Path(exclude_file).read_text().split() if x.strip()}
+    return ex & set(symbols)
+
+
+def build_signature(d, n_up, n_down, outdir, exclude_ig=False, exclude_prolif=False, exclude_file=None):
     d = d.copy()
     d["symbol"] = entrez_to_symbol(d["GeneID"], outdir)
     d = d.dropna(subset=["symbol"])
+    ex = genes_to_exclude(set(d["symbol"]), exclude_ig, exclude_prolif, exclude_file)
+    if ex:
+        log_ex = sorted(ex)
+        (outdir / "excluded_genes.txt").write_text("\n".join(log_ex) + "\n")
+        print(f"Sensitivity analysis: excluding {len(ex)} genes from the signature "
+              f"(ig={exclude_ig}, proliferation={exclude_prolif}, file={exclude_file})")
+        d = d[~d["symbol"].isin(ex)]
     # keep only genes that exist in the L1000 gene space (drops LOC*/LINC*/IG* etc.),
     # THEN take the top N, so the signature is not filled with unmeasurable genes
     gmap = resolve_genes(list(d["symbol"]))
@@ -184,6 +214,11 @@ def main():
     ap.add_argument("--degs", default="Supplementary_-_1.xlsx")
     ap.add_argument("--sheet", default="HIV DEGs")
     ap.add_argument("--outdir", default="results")
+    ap.add_argument("--exclude-ig", action="store_true",
+                    help="sensitivity: drop immunoglobulin segment genes (IGHV/IGKV/IGLV...) from the signature")
+    ap.add_argument("--exclude-proliferation", action="store_true",
+                    help="sensitivity: drop core S-phase and G2/M cell-cycle genes (Tirosh 2016 sets)")
+    ap.add_argument("--exclude-file", help="sensitivity: text file of extra gene symbols to drop")
     ap.add_argument("--n-up", type=int, default=150)
     ap.add_argument("--n-down", type=int, default=150)   # you only have 35 down genes
     ap.add_argument("--database", default="l1000_cp",
@@ -206,7 +241,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
 
     d = load_degs(a.degs, a.sheet)
-    up, down, gmap = build_signature(d, a.n_up, a.n_down, out)
+    up, down, gmap = build_signature(d, a.n_up, a.n_down, out, a.exclude_ig, a.exclude_proliferation, a.exclude_file)
     raw = collect(up, down, gmap, a.database, a.limit)
     raw, summ = summarise(raw, a.fdr, a.min_sigs, a.zcut, a.require_down)
 

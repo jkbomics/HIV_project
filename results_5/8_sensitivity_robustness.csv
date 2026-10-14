@@ -1,0 +1,45 @@
+drug,group,drug_class,baseline_n_reversing,baseline_n_mimicking,baseline_cell_lines,baseline_reverser,noIG_n_reversing,noIG_n_mimicking,noIG_cell_lines,noIG_reverser,noProlif_n_reversing,noProlif_n_mimicking,noProlif_cell_lines,noProlif_reverser,noIG_noProlif_n_reversing,noIG_noProlif_n_mimicking,noIG_noProlif_cell_lines,noIG_noProlif_reverser,n_runs_reverser,robust_all_runs
+pitavastatin,repurposing shortlist,"approved, non-oncology",16,1,6,True,15,1.0,6,True,15,1.0,6,True,12,1.0,5,True,4,True
+hexachlorophene,repurposing shortlist,"approved, non-oncology",5,0,4,True,5,0.0,4,True,6,1.0,5,True,7,1.0,5,True,4,True
+sertraline,repurposing shortlist,"approved, non-oncology",11,0,4,True,11,1.0,4,True,9,0.0,4,True,10,1.0,5,True,4,True
+niclosamide,repurposing shortlist,"approved, non-oncology",11,1,4,True,12,2.0,7,True,11,2.0,6,True,18,2.0,11,True,4,True
+ivermectin,repurposing shortlist,"approved, non-oncology",4,0,3,True,5,1.0,4,True,5,0.0,4,True,5,0.0,4,True,4,True
+ingenol-mebutate,repurposing shortlist,"approved, non-oncology",10,0,3,True,8,0.0,2,True,9,0.0,3,True,7,0.0,2,True,4,True
+bazedoxifene,repurposing shortlist,"approved, non-oncology",4,0,3,True,5,0.0,3,True,5,0.0,3,True,4,0.0,2,True,4,True
+amiodarone,repurposing shortlist,"approved, non-oncology",3,0,3,True,4,0.0,4,True,3,0.0,3,True,4,1.0,4,True,4,True
+nifedipine,repurposing shortlist,"approved, non-oncology",3,0,3,True,4,0.0,4,True,3,0.0,3,True,3,0.0,3,True,4,True
+perphenazine,repurposing shortlist,"approved, non-oncology",3,0,2,True,5,0.0,4,True,3,0.0,2,True,3,0.0,2,True,4,True
+doconexent,repurposing shortlist,"approved, non-oncology",7,2,2,True,7,2.0,2,True,6,2.0,2,True,7,0.0,2,True,4,True
+raloxifene,repurposing shortlist,"approved, non-oncology",5,1,2,True,6,1.0,2,True,8,1.0,3,True,10,1.0,4,True,4,True
+TG-101348,tier 1,anti-cancer (cytotoxic/targeted),23,2,12,True,23,2.0,11,True,20,0.0,10,True,22,0.0,11,True,4,True
+fluorouracil,tier 1,anti-cancer (cytotoxic/targeted),8,0,3,True,9,0.0,3,True,8,0.0,3,True,6,1.0,2,True,4,True
+palbociclib,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),262,0,76,True,232,1.0,71,True,168,2.0,56,True,108,3.0,42,True,4,True
+PHA-793887,tier 2 (strong reversal),investigational / not annotated,64,0,39,True,69,0.0,39,True,53,0.0,30,True,43,1.0,26,True,4,True
+R-547,tier 2 (strong reversal),investigational / not annotated,82,0,38,True,77,0.0,36,True,53,0.0,27,True,35,0.0,16,True,4,True
+nutlin-3,tier 2 (strong reversal),investigational / not annotated,69,1,31,True,63,3.0,33,True,57,3.0,32,True,46,2.0,27,True,4,True
+vorinostat,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),71,3,20,True,69,3.0,21,True,64,7.0,22,True,71,6.0,22,True,4,True
+AMG-232,tier 2 (strong reversal),not found in DGIdb,51,3,20,True,56,2.0,22,True,52,1.0,19,True,47,0.0,19,True,4,True
+AZD-9291,tier 2 (strong reversal),not found in DGIdb,24,4,16,True,22,3.0,15,True,20,5.0,11,True,20,4.0,12,True,4,True
+JNJ-7706621,tier 2 (strong reversal),investigational / not annotated,16,2,16,True,17,2.0,17,True,15,2.0,14,True,11,3.0,10,True,4,True
+rucaparib,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),16,1,16,True,22,1.0,21,True,18,0.0,18,True,21,2.0,20,True,4,True
+teniposide,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),26,0,16,True,27,0.0,17,True,23,0.0,17,True,14,2.0,14,True,4,True
+NVP-BEZ235,tier 2 (strong reversal),not found in DGIdb,52,9,15,True,49,8.0,14,True,50,4.0,14,True,46,3.0,15,True,4,True
+mitoxantrone,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),103,19,15,True,98,17.0,15,True,79,14.0,14,True,74,17.0,20,True,4,True
+alvocidib,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),18,1,15,True,16,1.0,12,True,14,1.0,12,True,16,2.0,13,True,4,True
+obatoclax,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),16,1,14,True,18,0.0,16,True,18,0.0,14,True,20,0.0,17,True,4,True
+wortmannin,tier 2 (strong reversal),investigational / not annotated,108,9,14,True,111,7.0,15,True,111,1.0,16,True,77,2.0,16,True,4,True
+MK-2206,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),15,4,13,True,13,3.0,12,True,16,2.0,14,True,17,6.0,15,True,4,True
+dabrafenib,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),25,1,13,True,21,2.0,13,True,28,2.0,13,True,19,3.0,10,True,4,True
+PD-0325901,tier 2 (strong reversal),not found in DGIdb,72,6,13,True,74,7.0,13,True,50,10.0,12,True,38,18.0,11,True,4,True
+pyrvinium-pamoate,tier 2 (strong reversal),"approved, non-oncology",20,0,12,True,22,0.0,12,True,22,0.0,13,True,18,0.0,11,True,4,True
+PF-04691502,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),32,10,11,True,31,8.0,10,True,33,1.0,10,True,29,0.0,10,True,4,True
+CD-437,tier 2 (strong reversal),not found in DGIdb,13,0,11,True,13,0.0,11,True,16,0.0,14,True,6,0.0,6,True,4,True
+PF-03758309,tier 2 (strong reversal),investigational / not annotated,24,0,11,True,22,0.0,9,True,11,0.0,6,True,15,0.0,7,True,4,True
+tanespimycin,tier 2 (strong reversal),anti-cancer (cytotoxic/targeted),18,7,10,True,22,8.0,10,True,19,3.0,11,True,23,1.0,11,True,4,True
+lomitapide,repurposing shortlist,"approved, non-oncology",3,0,3,True,3,0.0,3,True,3,0.0,3,True,2,0.0,2,False,3,False
+fluspirilene,repurposing shortlist,"approved, non-oncology",3,0,3,True,3,0.0,3,True,0,,0,False,0,,0,False,2,False
+colchicine,repurposing shortlist,"approved, non-oncology",11,5,2,True,8,4.0,2,False,8,4.0,2,False,9,2.0,3,True,2,False
+ixabepilone,repurposing shortlist,"approved, non-oncology",3,0,2,True,3,0.0,2,True,0,,0,False,0,,0,False,2,False
+etravirine,repurposing shortlist,"approved, non-oncology",3,0,3,True,0,,0,False,0,,0,False,0,,0,False,1,False
+nortriptyline,repurposing shortlist,"approved, non-oncology",3,0,3,True,0,,0,False,0,,0,False,0,,0,False,1,False
+carvedilol,repurposing shortlist,"approved, non-oncology",3,0,2,True,0,,0,False,0,,0,False,0,,0,False,1,False
