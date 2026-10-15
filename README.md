@@ -181,9 +181,9 @@ Other direct nucleotide-synthesis inhibitors did **not** reverse the signature c
 
 ---
 
-## 8. Step 6: independent check with the client's LINCS signatures (HepG2, then HA1E)
+## 8. Step 6: independent check with the given LINCS signatures (HepG2, then HA1E)
 
-**What the client supplied.** Gene-set files with the 500 most up- and 500 most down-regulated genes for each compound signature: 3,393 signatures in the HepG2 liver cell line and 4,032 in the HA1E kidney cell line. Most are 6 h at about 10 µM (HepG2: 3,217 at 6 h and 176 at 24 h; HA1E: 2,440 at 6 h and 1,592 at 24 h). The client's instruction was to **use HepG2 first and use HA1E only for drugs that have no HepG2 signature**.
+**What is supplied.** Gene-set files with the 500 most up- and 500 most down-regulated genes for each compound signature: 3,393 signatures in the HepG2 liver cell line and 4,032 in the HA1E kidney cell line. Most are 6 h at about 10 µM (HepG2: 3,217 at 6 h and 176 at 24 h; HA1E: 2,440 at 6 h and 1,592 at 24 h). The client's instruction was to **use HepG2 first and use HA1E only for drugs that have no HepG2 signature**.
 
 **Method.** For each signature, the HIV up-regulated genes were tested for over-representation among the compound's down genes (reversal) and among its up genes (mimicry), with a hypergeometric test against the 12,328-gene L1000 space, corrected for multiple testing within each cell line. A signature was called a reverser or mimicker at FDR < 0.05 and fold enrichment ≥ 2. Only 97 of the 150 up genes and 13 of the 19 down genes are in this gene space, so the call rests on the up genes. For each candidate drug the HepG2 signature was used when present, otherwise the HA1E one. A sensitivity run removed the 43 core cell-cycle genes (60 up genes remained).
 
